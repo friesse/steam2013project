@@ -1,0 +1,1714 @@
+@charset "utf-8";
+
+:root { --wm-toolbar-height: 65px; }
+
+#wm-ipp-base { height: 65px; padding: 0px; margin: 0px; border: none; background: none transparent; }
+
+#wm-ipp { z-index: 2147483647; }
+
+#wm-ipp, #wm-ipp * { font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.2; letter-spacing: 0px; width: auto; height: auto; max-width: none; max-height: none; min-height: 0px; outline: none; float: none; text-align: left; border: none; color: rgb(0, 0, 0); text-indent: 0px; position: initial; background: none; min-width: 0px !important; }
+
+#wm-ipp div, #wm-ipp canvas { display: block; }
+
+#wm-ipp div, #wm-ipp tr, #wm-ipp td, #wm-ipp a, #wm-ipp form { padding: 0px; margin: 0px; border: none; border-radius: 0px; background-color: transparent; background-image: none; height: auto; }
+
+#wm-ipp table { border: none; border-collapse: collapse; margin: 0px; padding: 0px; width: auto; font-size: inherit; }
+
+#wm-ipp form input { height: auto; display: inline; margin: 0px; color: rgb(0, 0, 0); background: none rgb(255, 255, 255); border: 1px solid rgb(102, 102, 102); padding: 1px !important; }
+
+#wm-ipp form input[type="submit"] { padding: 0px 8px !important; margin: 1px 0px 1px 5px !important; width: auto !important; border: 1px solid rgb(0, 0, 0) !important; background: rgb(255, 255, 255) !important; color: rgb(0, 0, 0) !important; }
+
+#wm-ipp form input[type="submit"]:hover { background: rgb(238, 238, 238) !important; cursor: pointer !important; }
+
+#wm-ipp form input[type="submit"]:active { transform: translateY(1px); }
+
+#wm-ipp a { display: inline; }
+
+#wm-ipp a:hover { text-decoration: underline; }
+
+#wm-ipp a.wm-btn:hover { text-decoration: none; color: rgb(255, 255, 0) !important; }
+
+#wm-ipp a.wm-btn:hover span { color: rgb(255, 255, 0) !important; }
+
+#wm-ipp #wm-ipp-inside { margin: 0px 6px; border-right: 5px solid rgb(0, 0, 0); border-bottom: 5px solid rgb(0, 0, 0); border-left: 5px solid rgb(0, 0, 0); border-image: initial; border-top: none; background-color: rgba(255, 255, 255, 0.9); box-shadow: rgb(51, 51, 51) 1px 1px 4px; border-radius: 0px 0px 8px 8px; }
+
+#wm-ipp #wm-logo { padding: 0px 10px; vertical-align: middle; min-width: 100px; flex: 0 0 100px; }
+
+#wm-ipp .c { padding-left: 4px; }
+
+#wm-ipp .c .u { margin-top: 4px !important; }
+
+#wm-ipp .n { vertical-align: bottom; padding: 0px 0px 0px 5px !important; }
+
+#wm-ipp .n a { text-decoration: none; color: rgb(51, 51, 255); font-weight: bold; }
+
+#wm-ipp .n .b { overflow: visible; white-space: nowrap; color: rgb(153, 153, 170); vertical-align: middle; padding: 0px 6px 0px 0px !important; text-align: right !important; }
+
+#wm-ipp .n .y .b { padding: 0px 6px 2px 0px !important; }
+
+#wm-ipp .n .c { background: rgb(0, 0, 0); color: rgb(255, 255, 0); font-weight: bold; text-align: center; padding: 0px !important; }
+
+#wm-ipp.hi .n td.c { color: rgb(236, 0, 140); }
+
+#wm-ipp .n td.f { overflow: visible; white-space: nowrap; color: rgb(153, 153, 170); vertical-align: middle; padding: 0px 0px 0px 6px !important; text-align: left !important; }
+
+#wm-ipp .n tr.m td { text-transform: uppercase; white-space: nowrap; padding: 2px 0px; }
+
+#wm-ipp .c .s { vertical-align: bottom; padding: 0px 5px 0px 0px !important; }
+
+#wm-ipp #wm-nav-captures { white-space: nowrap; }
+
+#wm-ipp .c .s a.t { color: rgb(51, 51, 255); font-weight: bold; line-height: 1.8; }
+
+#wm-ipp .c .s div.r { color: rgb(102, 102, 102); font-size: 9px; white-space: nowrap; }
+
+#wm-ipp .c .k { padding-bottom: 1px; }
+
+#wm-ipp .c .s { padding: 0px 5px 2px 0px !important; }
+
+#wm-ipp td#displayMonthEl { padding: 2px 0px !important; }
+
+#wm-ipp td#displayYearEl { padding: 0px 0px 2px !important; }
+
+div#wm-ipp-sparkline { position: relative; white-space: nowrap; background-color: rgb(255, 255, 255); cursor: pointer; line-height: 0.9; }
+
+#sparklineImgId, #wm-sparkline-canvas { position: relative; z-index: 9012; max-width: none; }
+
+#wm-ipp-sparkline div.yt { position: absolute; top: 0px; z-index: 9010 !important; background-color: rgb(255, 255, 0) !important; }
+
+#wm-ipp-sparkline div.mt { position: absolute; top: 0px; z-index: 9013 !important; background-color: rgb(236, 0, 140) !important; }
+
+#wm-ipp .r { margin-left: 4px; }
+
+#wm-ipp .r a { color: rgb(51, 51, 255); border: none; position: relative; background-color: transparent; text-decoration: none; background-repeat: no-repeat !important; background-position: 100% 100% !important; }
+
+#wm-ipp #wm-capinfo { border-radius: 0px 0px 4px 4px; }
+
+#wm-ipp #wm-capinfo .c-logo { display: block; float: left; margin-right: 3px; width: 90px; min-height: 90px; max-height: 290px; border-radius: 45px; overflow: hidden; background-position: 50% center; background-size: auto 90px; box-shadow: rgb(208, 208, 208) 0px 0px 2px 2px inset; }
+
+#wm-ipp #wm-capinfo .c-logo span { display: inline-block; }
+
+#wm-ipp #wm-capinfo .c-logo img { height: 90px; position: relative; left: -50%; }
+
+#wm-ipp #wm-capinfo .wm-title { font-size: 130%; }
+
+#wm-ipp #wm-capinfo a.wm-selector { display: inline-block; color: rgb(170, 170, 170); padding: 2px 8px; text-decoration: none !important; }
+
+#wm-ipp #wm-capinfo a.wm-selector.selected { background-color: rgb(102, 102, 102); }
+
+#wm-ipp #wm-capinfo a.wm-selector:hover { color: rgb(255, 255, 255); }
+
+#wm-ipp #wm-capinfo.notice-only #wm-capinfo-collected-by, #wm-ipp #wm-capinfo.notice-only #wm-capinfo-timestamps { display: none; }
+
+#wm-ipp #wm-capinfo #wm-capinfo-notice .wm-capinfo-content { background-color: rgb(255, 255, 0); padding: 5px; font-size: 14px; text-align: center; }
+
+#wm-ipp #wm-capinfo #wm-capinfo-notice .wm-capinfo-content * { font-size: 14px; text-align: center; }
+
+#wm-ipp #wm-expand { right: 1px; bottom: -1px; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102) !important; padding: 0px 5px 0px 3px !important; border-radius: 3px 3px 0px 0px !important; }
+
+#wm-ipp #wm-expand span { color: rgb(255, 255, 255); }
+
+#wm-ipp #wm-expand #wm-expand-icon { display: inline-block; transition: transform 0.5s ease 0s; transform-origin: 50% 45%; }
+
+#wm-ipp #wm-expand.wm-open #wm-expand-icon { transform: rotate(180deg); }
+
+#wm-ipp #wmtb { text-align: right; }
+
+#wm-ipp #wmtb #wmtbURL { width: calc(100% - 45px); }
+
+#wm-ipp #wm-graph-anchor { border-right: 1px solid rgb(204, 204, 204); }
+
+html.wb-highlight { box-shadow: rgb(165, 14, 58) 0px 0px 0px 3px inset !important; }
+
+.wb-highlight { outline: rgb(165, 14, 58) solid 3px !important; }
+
+#wm-ipp-print { display: none !important; }
+
+@media print {
+  #wm-ipp-base { display: none !important; }
+  #wm-ipp-print { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block !important; }
+}
+
+@media (max-width: 414px) {
+  #wm-ipp .xxs { display: none !important; }
+}
+
+@media (min-width: 1055px) {
+  #wm-ipp #wm-graph-anchor { display: block !important; }
+}
+
+@media (max-width: 1054px) {
+  #wm-ipp #wm-graph-anchor { display: none !important; }
+}
+
+@media (max-width: 1163px) {
+  #wm-logo { display: none !important; }
+}
+
+#wm-btns { white-space: nowrap; margin-top: -2px; }
+
+#wm-btns #wm-save-snapshot-open { margin-right: 7px; top: -6px; }
+
+#wm-btns #wm-sign-in { box-sizing: content-box; display: none; margin-right: 7px; top: -8px; border: 2px solid rgb(0, 0, 0); border-radius: 14px; padding-right: 2px; padding-bottom: 2px; width: 11px; height: 11px; }
+
+#wm-btns #wm-sign-in > .iconochive-person { font-size: 12.5px; }
+
+#wm-save-snapshot-open > .iconochive-web { color: rgb(0, 0, 0); font-size: 160%; }
+
+#wm-ipp #wm-share { display: flex; align-items: flex-end; justify-content: space-between; }
+
+#wm-share > #wm-screenshot { display: inline-block; margin-right: 3px; visibility: hidden; }
+
+#wm-screenshot > .iconochive-image { color: rgb(0, 0, 0); font-size: 160%; }
+
+#wm-share > #wm-video { display: inline-block; margin-right: 3px; visibility: hidden; }
+
+#wm-video > .iconochive-movies { color: rgb(0, 0, 0); display: inline-block; font-size: 150%; margin-bottom: 2px; }
+
+#wm-btns #wm-save-snapshot-in-progress { display: none; font-size: 160%; opacity: 0.5; position: relative; margin-right: 7px; top: -5px; }
+
+#wm-btns #wm-save-snapshot-success { display: none; color: green; position: relative; top: -7px; }
+
+#wm-btns #wm-save-snapshot-fail { display: none; color: red; position: relative; top: -7px; }
+
+.wm-icon-screen-shot { display: inline-block; background: url("../images/web-screenshot.svg") 0% 0% / contain no-repeat !important; width: 22px !important; height: 19px !important; }
+
+#donato { height: 0px; margin: 0px; padding: 0px; border-bottom: 1px solid rgb(153, 153, 153) !important; }
+
+body.wm-modal { height: auto !important; overflow: hidden !important; }
+
+#donato #donato-base { width: 100%; height: 100%; margin: 0px; padding: 0px; position: absolute; z-index: 2147483639; }
+
+body.wm-modal #donato #donato-base { position: fixed; inset: 0px; z-index: 2147483640; }
+
+.wb-autocomplete-suggestions { font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; cursor: default; border-width: 0px 1px 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image: initial; border-top-style: initial; border-top-color: initial; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) -1px 1px 3px; position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden auto; box-sizing: border-box; }
+
+.wb-autocomplete-suggestion { position: relative; padding: 0px 0.6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: rgb(51, 51, 51); }
+
+.wb-autocomplete-suggestion b { font-weight: bold; }
+
+.wb-autocomplete-suggestion.selected { background: rgb(240, 240, 240); }
+@charset "utf-8";
+
+@font-face { font-family: Iconochive-Regular; src: url("../fonts/Iconochive-Regular.woff") format("woff"), url("../fonts/Iconochive-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+[class^="iconochive-"], [class*=" iconochive-"] { speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; font-family: Iconochive-Regular !important; }
+
+.iconochive-Uplevel::before { content: "âµ"; }
+
+.iconochive-exit::before { content: "ð£"; }
+
+.iconochive-beta::before { content: "Î²"; }
+
+.iconochive-logo::before { content: "ð"; }
+
+.iconochive-audio::before { content: "ð¨"; }
+
+.iconochive-movies::before { content: "ð"; }
+
+.iconochive-software::before { content: "ð¾"; }
+
+.iconochive-texts::before { content: "ð®"; }
+
+.iconochive-etree::before { content: "ð¤"; }
+
+.iconochive-image::before { content: "ð¼"; }
+
+.iconochive-web::before { content: "ð"; }
+
+.iconochive-collection::before { content: "â"; }
+
+.iconochive-folder::before { content: "ð"; }
+
+.iconochive-data::before { content: "ð"; }
+
+.iconochive-tv::before { content: "ðº"; }
+
+.iconochive-article::before { content: "ð"; }
+
+.iconochive-question::before { content: "â°"; }
+
+.iconochive-question-dark::before { content: "?"; }
+
+.iconochive-info::before { content: "i"; }
+
+.iconochive-info-small::before { content: "â"; }
+
+.iconochive-comment::before { content: "ð©"; }
+
+.iconochive-comments::before { content: "ðª"; }
+
+.iconochive-person::before { content: "ð¤"; }
+
+.iconochive-people::before { content: "ð¥"; }
+
+.iconochive-eye::before { content: "ð"; }
+
+.iconochive-rss::before { content: "â"; }
+
+.iconochive-time::before { content: "ð"; }
+
+.iconochive-quote::before { content: "â"; }
+
+.iconochive-disc::before { content: "ð¿"; }
+
+.iconochive-tv-commercial::before { content: "ð°"; }
+
+.iconochive-search::before { content: "ð"; }
+
+.iconochive-search-star::before { content: "â½"; }
+
+.iconochive-tiles::before { content: "â"; }
+
+.iconochive-list::before { content: "â¶"; }
+
+.iconochive-list-bulleted::before { content: "â"; }
+
+.iconochive-latest::before { content: "â"; }
+
+.iconochive-left::before { content: "Ë"; }
+
+.iconochive-right::before { content: "Ë"; }
+
+.iconochive-left-solid::before { content: "â"; }
+
+.iconochive-right-solid::before { content: "â¸"; }
+
+.iconochive-up-solid::before { content: "â´"; }
+
+.iconochive-down-solid::before { content: "â¾"; }
+
+.iconochive-dot::before { content: "â¤"; }
+
+.iconochive-dots::before { content: "â¦"; }
+
+.iconochive-columns::before { content: "â¯"; }
+
+.iconochive-sort::before { content: "â"; }
+
+.iconochive-atoz::before { content: "ð¤"; }
+
+.iconochive-ztoa::before { content: "ð¥"; }
+
+.iconochive-upload::before { content: "ð¤"; }
+
+.iconochive-download::before { content: "ð¥"; }
+
+.iconochive-favorite::before { content: "â"; }
+
+.iconochive-heart::before { content: "â¥"; }
+
+.iconochive-play::before { content: "â¶"; }
+
+.iconochive-play-framed::before { content: "ð¬"; }
+
+.iconochive-fullscreen::before { content: "â¶"; }
+
+.iconochive-mute::before { content: "ð"; }
+
+.iconochive-unmute::before { content: "ð"; }
+
+.iconochive-share::before { content: "ð"; }
+
+.iconochive-edit::before { content: "â"; }
+
+.iconochive-reedit::before { content: "â"; }
+
+.iconochive-gear::before { content: "â"; }
+
+.iconochive-remove-circle::before { content: "â"; }
+
+.iconochive-plus-circle::before { content: "ð"; }
+
+.iconochive-minus-circle::before { content: "ð"; }
+
+.iconochive-x::before { content: "ð"; }
+
+.iconochive-fork::before { content: "â"; }
+
+.iconochive-trash::before { content: "ð"; }
+
+.iconochive-warning::before { content: "â "; }
+
+.iconochive-flash::before { content: "ð²"; }
+
+.iconochive-world::before { content: "ðº"; }
+
+.iconochive-lock::before { content: "ð"; }
+
+.iconochive-unlock::before { content: "ð"; }
+
+.iconochive-twitter::before { content: "ð¦"; }
+
+.iconochive-facebook::before { content: "f"; }
+
+.iconochive-googleplus::before { content: "g"; }
+
+.iconochive-reddit::before { content: "ð½"; }
+
+.iconochive-tumblr::before { content: "T"; }
+
+.iconochive-pinterest::before { content: "ð"; }
+
+.iconochive-popcorn::before { content: "ð¥"; }
+
+.iconochive-email::before { content: "ð§"; }
+
+.iconochive-embed::before { content: "ð"; }
+
+.iconochive-gamepad::before { content: "ð¹"; }
+
+.iconochive-Zoom_In::before { content: "+"; }
+
+.iconochive-Zoom_Out::before { content: "-"; }
+
+.iconochive-RSS::before { content: "ð¨"; }
+
+.iconochive-Light_Bulb::before { content: "ð¡"; }
+
+.iconochive-Add::before { content: "â"; }
+
+.iconochive-Tab_Activity::before { content: "â"; }
+
+.iconochive-Forward::before { content: "â©"; }
+
+.iconochive-Backward::before { content: "âª"; }
+
+.iconochive-No_Audio::before { content: "ð"; }
+
+.iconochive-Pause::before { content: "â¸"; }
+
+.iconochive-No_Favorite::before { content: "â"; }
+
+.iconochive-Unike::before { content: "â¡"; }
+
+.iconochive-Song::before { content: "â«"; }
+
+.iconochive-No_Flag::before { content: "â"; }
+
+.iconochive-Flag::before { content: "â"; }
+
+.iconochive-Done::before { content: "â"; }
+
+.iconochive-Check::before { content: "â"; }
+
+.iconochive-Refresh::before { content: "â³"; }
+
+.iconochive-Headphones::before { content: "ð§"; }
+
+.iconochive-Chart::before { content: "ð"; }
+
+.iconochive-Bookmark::before { content: "ð"; }
+
+.iconochive-Documents::before { content: "ð"; }
+
+.iconochive-Newspaper::before { content: "ð°"; }
+
+.iconochive-Podcast::before { content: "ð¶"; }
+
+.iconochive-Radio::before { content: "ð»"; }
+
+.iconochive-Cassette::before { content: "ð¼"; }
+
+.iconochive-Shuffle::before { content: "ð"; }
+
+.iconochive-Loop::before { content: "ð"; }
+
+.iconochive-Low_Audio::before { content: "ð"; }
+
+.iconochive-First::before { content: "ð"; }
+
+.iconochive-Invisible::before { content: "ð¶"; }
+
+.iconochive-Computer::before { content: "ð³"; }
+@charset "utf-8";
+
+.playerAvatar { padding: 3px; border-radius: 3px; background-color: rgb(84, 84, 84); }
+
+.playerAvatar.offline { background: linear-gradient(rgb(112, 108, 107) 5%, rgb(78, 77, 77) 95%); filter: none; }
+
+.playerAvatar.ignored { }
+
+.playerAvatar.online { background: linear-gradient(rgb(123, 175, 214) 5%, rgb(80, 109, 146) 95%); filter: none; }
+
+.playerAvatar.online img { border-color: rgb(77, 87, 97); }
+
+.playerAvatar.in-game { background: linear-gradient(rgb(155, 200, 97) 5%, rgb(120, 158, 76) 95%); filter: none; }
+
+.playerAvatar.in-game img { border-color: rgb(82, 90, 79); }
+
+.playerAvatar { width: 34px; height: 34px; }
+
+.playerAvatar img { width: 32px; height: 32px; border: 1px solid rgb(84, 84, 84); border-radius: 3px; }
+
+.playerAvatar.medium { width: 66px; height: 66px; }
+
+.playerAvatar.medium img { width: 64px; height: 64px; }
+
+.playerAvatar.full { width: 186px; height: 186px; }
+
+.playerAvatar.full img { width: 184px; height: 184px; }
+
+.persona, a.persona, .persona a { color: rgb(137, 137, 137); }
+
+.persona.online, a.persona.online, .persona.online a { color: rgb(134, 181, 217); }
+
+.persona.in-game, a.persona.in-game, .persona.in-game a { color: rgb(139, 197, 63); }
+
+.miniprofile_hover { position: absolute; top: 0px; left: 0px; z-index: 1200; }
+
+.miniprofile_hover_inner.shadow_content { margin: 11px; }
+
+.miniprofile_content { width: 302px; border-radius: 3px; color: rgb(130, 130, 130); font-size: 14px; }
+
+.miniprofile_top { border: 1px solid rgb(51, 53, 56); padding: 7px 8px; background: linear-gradient(rgb(51, 66, 90) 5%, rgb(40, 47, 61) 95%); }
+
+.miniprofile_player { position: relative; min-height: 72px; }
+
+.miniprofile_player .playerAvatar { position: absolute; left: 0px; top: 0px; }
+
+.miniprofile_player .player_content { padding-left: 80px; overflow-wrap: break-word; }
+
+.miniprofile_player .playername { font-size: 16px; }
+
+.miniprofile_favorite_badge { position: relative; margin-top: 7px; background-color: rgb(40, 47, 62); border: 1px solid rgb(33, 33, 33); border-radius: 3px; padding: 7px 4px; height: 34px; }
+
+.miniprofile_favorite_badge .favorite_badge_icon { position: absolute; top: 7px; left: 4px; }
+
+.miniprofile_favorite_badge .favorite_badge_icon img { width: 34px; height: 34px; }
+
+.miniprofile_favorite_badge .favorite_badge_description { font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-left: 44px; padding-top: 3px; }
+
+.miniprofile_ingame { border-left: 1px solid rgb(31, 31, 31); border-right: 1px solid rgb(31, 31, 31); border-bottom: 1px solid rgb(31, 31, 31); padding: 8px; height: 45px; position: relative; background: linear-gradient(rgb(82, 81, 81) 5%, rgb(41, 40, 39) 95%); }
+
+.miniprofile_ingame .game_logo { position: absolute; left: 8px; top: 8px; width: 121px; height: 45px; }
+
+.miniprofile_ingame .game_content { padding-left: 128px; padding-top: 6px; font-size: 12px; }
+
+.miniprofile_arrow_left, .miniprofile_arrow_right { position: absolute; top: 30px; border-top: 9px solid transparent; border-bottom: 9px solid transparent; width: 0px; height: 0px; }
+
+.miniprofile_arrow_left { border-right: 8px solid rgb(49, 63, 86); left: 4px; }
+
+.miniprofile_arrow_right { border-left: 8px solid rgb(49, 63, 86); right: 4px; }
+
+.miniprofile_arrow_inner { position: absolute; top: -6px; background-repeat: no-repeat; width: 7px; height: 1px; }
+
+.miniprofile_arrow_left .miniprofile_arrow_inner { left: 2px; }
+
+.miniprofile_arrow_right .miniprofile_arrow_inner { right: 2px; }
+
+.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
+
+span.popup_menu_pulldown_indicator { display: inline-block; background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/btn_arrow_down.png"); vertical-align: middle; width: 9px; height: 4px; }
+
+.popup_block_new { z-index: 200; position: absolute; box-shadow: rgb(0, 0, 0) 0px 0px 12px; }
+
+.popup_block_new .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
+
+.popup_block_new .popup_body.popup_menu { }
+
+.popup_menu .popup_menu_item { display: block; padding: 5px 12px; color: rgb(229, 228, 220); text-transform: none; font-size: 11px; font-weight: bold; line-height: normal; }
+
+.popup_menu a.popup_menu_item { text-decoration: none; }
+
+.popup_menu span.popup_menu_item { cursor: default; }
+
+.popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus { text-decoration: none; background-color: rgb(33, 45, 61); }
+
+.friendPlayerLevel { display: inline-block; font-size: 16px; border-radius: 16px; border: 2px solid white; height: 28px; width: 28px; text-align: center; line-height: 28px; cursor: default; }
+
+.friendPlayerLevel .friendPlayerLevelNum { color: rgb(155, 155, 155); }
+
+.friendPlayerLevel.lvl_0 { border: 2px solid rgb(155, 155, 155); }
+
+.friendPlayerLevel.lvl_10 { border: 2px solid rgb(217, 96, 99); }
+
+.friendPlayerLevel.lvl_20 { border: 2px solid rgb(206, 205, 112); }
+
+.friendPlayerLevel.lvl_30 { border: 2px solid rgb(118, 82, 201); }
+
+.friendPlayerLevel.lvl_40 { border: 2px solid rgb(125, 174, 61); }
+
+.friendPlayerLevel.lvl_50 { border: 2px solid rgb(84, 145, 207); }
+@charset "utf-8";
+
+a { text-decoration: none; color: rgb(255, 255, 255); }
+
+.a:focus { outline: none 0px; }
+
+a:hover { text-decoration: underline; }
+
+a.nohover:hover { text-decoration: none; }
+
+img { border: none; }
+
+* { margin: 0px; padding: 0px; }
+
+body { font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-size: 12px; }
+
+h1 { font-size: 30px; font-weight: normal; }
+
+h2 { font-size: 24px; font-weight: normal; }
+
+h3 { font-size: 16px; font-weight: bold; }
+
+h4 { font-size: 14px; font-weight: normal; }
+
+h5 { font-size: 10px; font-weight: normal; text-transform: uppercase; }
+
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.body_text { color: rgb(176, 174, 172); }
+
+.secondary_text { color: rgb(98, 99, 102); }
+
+.price, .match_price { font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; font-size: 11px; color: rgb(176, 174, 172); }
+
+.discount_block { position: relative; background-color: rgb(0, 0, 0); }
+
+.discount_pct { background-color: rgb(76, 107, 34); color: rgb(255, 255, 255); }
+
+.discount_original_price { font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; color: rgb(98, 99, 102); text-decoration: line-through; }
+
+.discount_final_price { font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; color: rgb(214, 215, 216); }
+
+.discount_block_large { width: 157px; height: 41px; }
+
+.discount_block_large2 { width: 177px; }
+
+.discount_block_large .discount_pct { position: absolute; left: 0px; width: 94px; height: 41px; font-size: 38px; text-align: center; }
+
+.discount_block_large .discount_original_price { position: absolute; left: 102px; top: 4px; font-size: 12px; }
+
+.discount_block_large .discount_final_price { position: absolute; left: 102px; top: 18px; font-size: 16px; }
+
+.discount_block_inline { display: inline; font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; padding: 1px 0px; }
+
+.discount_block_inline div { display: inline; padding: 1px 2px; }
+
+.suppress_discount_pct .discount_pct { display: none; }
+
+.suppress_discount_pct.discount_block_large { width: 57px; }
+
+.suppress_discount_pct.discount_block_large .discount_original_price, .suppress_discount_pct.discount_block_large .discount_final_price { left: 2px; }
+
+div#footer, div#global_header, div#store_header, div#main, div.page_area { padding-left: 16px; padding-right: 16px; }
+
+div.page_content { width: 940px; margin: 0px auto; }
+
+div#global_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_bg.jpg"); background-color: rgb(0, 0, 0); border-bottom: 1px solid rgb(77, 75, 72); background-position: center top; }
+
+div#global_header .content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_bg.jpg"); background-position: center top; position: relative; width: 940px; height: 104px; margin: 0px auto; z-index: 402; }
+
+div#global_actions { position: absolute; right: 0px; top: 6px; height: 21px; line-height: 21px; color: rgb(184, 182, 180); font-size: 11px; z-index: 401; }
+
+div#global_actions a.global_action_link { padding: 0px 4px; color: rgb(184, 182, 180); }
+
+div#global_actions .global_action_link:hover { text-decoration: none; color: rgb(255, 255, 255); }
+
+div#global_actions #global_action_menu { float: right; }
+
+div#global_actions .user_avatar { float: right; margin-left: 3px; }
+
+div#global_header div.logo { float: left; padding-top: 30px; margin-right: 40px; width: 176px; height: 44px; }
+
+div#global_header .menuitem { display: block; position: relative; padding: 40px 7px 7px; line-height: 16px; float: left; font-size: 14px; color: rgb(184, 182, 180); text-transform: uppercase; }
+
+div#global_header .menuitem.active, div#global_header .menuitem:hover { color: rgb(255, 255, 255); text-decoration: none; }
+
+div#global_header .menuitem.active { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_highlight.png"); background-repeat: repeat-x; }
+
+div#global_header .activebg { display: none; }
+
+#header_wallet_ctn { text-align: right; padding-right: 12px; line-height: normal; }
+
+#language_pulldown, #account_pulldown { display: inline-block; margin: 1px; padding-left: 4px; line-height: 19px; }
+
+#language_pulldown.focus, #account_pulldown.focus { margin: 0px; border: 1px solid rgb(130, 128, 124); color: rgb(255, 255, 255); }
+
+#account_dropdown > .popup_body { width: 150px; }
+
+.header_installsteam_btn { float: left; position: relative; height: 21px; margin-right: 3px; }
+
+.header_installsteam_btn_green .header_installsteam_btn_leftcap, .header_installsteam_btn_green .header_installsteam_btn_rightcap, .header_installsteam_btn_green .header_installsteam_btn_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_header_installsteam_green.png"); }
+
+.header_installsteam_btn_gray .header_installsteam_btn_leftcap, .header_installsteam_btn_gray .header_installsteam_btn_rightcap, .header_installsteam_btn_gray .header_installsteam_btn_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_header_installsteam_gray.png"); }
+
+.header_installsteam_btn_leftcap { position: absolute; left: 0px; top: 0px; width: 24px; height: 21px; background-position: 0px 0px; }
+
+.header_installsteam_btn_rightcap { position: absolute; right: 0px; top: 0px; width: 1px; height: 21px; }
+
+.header_installsteam_btn_content { display: inline-block; padding-left: 27px; padding-right: 7px; height: 21px; line-height: 21px; background-position: 0px -21px; background-repeat: repeat-x; text-decoration: none; color: rgb(229, 228, 220); font-weight: normal; }
+
+.header_installsteam_btn_content:hover { text-decoration: none; color: rgb(255, 255, 255); }
+
+div#store_header, div#store_header_dlc { background-color: rgb(59, 57, 56); }
+
+div#store_header .content, div#store_header_dlc .content { position: relative; width: 940px; margin: 0px auto; z-index: 300; }
+
+div#store_header, div#store_header .content { height: 66px; }
+
+div#store_header_dlc, div#store_header_dlc .content { height: 29px; }
+
+div#store_controls { position: absolute; right: 0px; top: 10px; text-align: right; z-index: 300; font-size: 11px; }
+
+.store_header_btn_caps { float: left; }
+
+.store_header_btn_caps.leftcap { margin-left: 1px; }
+
+div.store_header_btn { height: 20px; position: relative; margin-left: 1px; float: left; }
+
+a.store_header_btn_content { display: inline-block; padding: 0px 25px; margin: 0px 1px; line-height: 20px; text-align: center; text-transform: uppercase; color: rgb(214, 215, 216); font-size: 11px; }
+
+.store_header_btn .store_header_btn_caps { position: absolute; width: 1px; height: 20px; }
+
+.store_header_btn .store_header_btn_leftcap { left: 0px; top: 0px; }
+
+.store_header_btn .store_header_btn_rightcap { right: 0px; top: 0px; }
+
+.store_header_btn a.store_header_btn_content { text-decoration: none; }
+
+.store_header_btn .store_header_btn_content, .store_header_btn .store_header_btn_caps { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_gradients.png"); background-repeat: repeat-x; }
+
+.store_header_btn.store_header_btn_gray .store_header_btn_content { background-position: 0px -35px; }
+
+.store_header_btn_gray .store_header_btn_caps { background-position: 0px -55px; }
+
+.store_header_btn.store_header_btn_green .store_header_btn_content { background-position: 0px -75px; }
+
+.store_header_btn_green .store_header_btn_caps { background-position: 0px -95px; }
+
+div#store_search { float: right; border-left: 1px solid rgb(0, 0, 0); padding: 4px; height: 27px; }
+
+a#store_search_link { position: absolute; right: 2px; }
+
+a#store_search_link img { width: 24px; height: 27px; }
+
+.searchbox { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_search.png?v=2"); color: rgb(166, 165, 162); width: 253px; height: 27px; position: relative; z-index: 250; }
+
+.searchbox input { border: none; background-color: rgb(130, 128, 124); color: rgb(205, 202, 193); margin-top: 5px; margin-left: 8px; width: 206px; outline: none; }
+
+.searchbox input.default { font-style: italic; }
+
+#store_nav_area { position: absolute; left: 0px; right: 0px; top: 24px; height: 49px; }
+
+.store_nav_leftcap, .store_nav_rightcap { position: absolute; height: 49px; width: 6px; top: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_shadow_caps.png"); background-repeat: no-repeat; }
+
+.store_nav_leftcap { left: -6px; background-position: left center; }
+
+.store_nav_rightcap { right: -6px; background-position: right center; }
+
+#store_nav_area .store_nav_bg { height: 35px; padding: 7px 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_gradients.png"); background-repeat: repeat-x; background-position: 0px -115px; }
+
+.store_nav { height: 35px; }
+
+.store_nav .tab { float: left; border-right: 1px solid rgb(0, 0, 0); cursor: pointer; }
+
+.tab.active.tab_filler { height: 26px; margin-bottom: -1px; }
+
+.store_nav .tab.focus { background-color: rgb(130, 128, 124); }
+
+#genre_flyout { top: 55px; }
+
+#language_dropdown { width: 224px; z-index: 400; }
+
+#language_dropdown img.iepopupfix_img { width: 224px; }
+
+.search_suggest { text-align: left; width: 430px; top: 30px; right: -12px; }
+
+.search_suggest .match { display: block; position: relative; height: 54px; overflow: hidden; border-top: 1px solid rgb(130, 128, 124); }
+
+.search_suggest .match.focus { background-color: rgb(33, 45, 61); }
+
+.search_suggest .match:hover { text-decoration: none; }
+
+.search_suggest .match .match_img { position: absolute; left: 15px; top: 4px; }
+
+.search_suggest .match .match_img img { width: 120px; height: 45px; }
+
+.search_suggest .match .match_name { position: absolute; left: 146px; top: 12px; width: 258px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; color: rgb(255, 255, 255); }
+
+.search_suggest .match .match_price { position: absolute; left: 146px; top: 30px; }
+
+div#main { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/content_bg.png"); background-repeat: repeat-x; background-color: rgb(0, 0, 0); }
+
+div#main_content { margin: 0px auto; min-height: 100%; height: 100%; padding-top: 16px; width: 940px; }
+
+div.leftcol { width: 616px; float: left; }
+
+div.rightcol { width: 308px; margin-left: 14px; float: left; overflow: hidden; }
+
+.block { margin-bottom: 28px; }
+
+.leftcol .leftcol_rule { border-bottom: 1px solid rgb(60, 61, 62); margin: 28px 0px; }
+
+.leftcol .block { width: 616px; margin-bottom: 28px; }
+
+.rightcol .block { margin-bottom: 16px; }
+
+.block .block_header { position: relative; height: 25px; line-height: 25px; color: rgb(214, 215, 216); border-bottom: 1px solid rgb(0, 0, 0); font-weight: bold; font-size: 12px; }
+
+.block .block_header div, .block .block_header h4 { padding: 0px 16px; font-weight: bold; font-size: 12px; }
+
+.block_header .right { position: absolute; right: 0px; height: 26px; border-left: 1px solid rgb(0, 0, 0); }
+
+.block_header .right a { text-transform: uppercase; font-size: 10px; font-weight: normal; color: rgb(176, 174, 172); }
+
+.block_header .right a:hover { text-decoration: none; }
+
+.block_content { border: 1px solid rgb(77, 75, 73); background-color: rgb(38, 38, 38); font-size: 12px; color: rgb(176, 174, 172); }
+
+.underlined_links a { color: rgb(176, 174, 172); text-decoration: underline; }
+
+.underlined_links a:hover { color: rgb(255, 255, 255); }
+
+.rightcol .block_flipped_gradient { border: none; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block_flipped.png"); background-position: left top; background-repeat: no-repeat; height: 1px; }
+
+.rightcol .block_content { border-top: none; border-right: none; border-bottom: none; border-image: initial; border-left: 1px solid rgb(38, 38, 38); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block.png"); background-position: right bottom; background-repeat: no-repeat; }
+
+.rightcol #col_right_review_payment_tips .block_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block_green.png"); }
+
+.block_content.nopad { padding: 0px; }
+
+.block_content_inner { padding: 16px; }
+
+.inner_block_col_left { position: absolute; width: 118px; }
+
+.inner_block_col_right { margin-left: 124px; }
+
+.block .block_content .rule { border-bottom: 1px solid rgb(60, 61, 62); }
+
+.block .block_content .inner_rule { border-bottom: 1px solid rgb(60, 61, 62); margin: 16px 0px; }
+
+.block .block_footer { margin-top: 1px; position: relative; height: 26px; line-height: 26px; background-color: rgb(38, 38, 38); color: rgb(98, 99, 102); font-size: 10px; text-align: center; }
+
+.block_footer div { padding: 0px 16px; }
+
+.block_footer a { color: rgb(176, 174, 172); }
+
+.block_footer .right, .block_header .right { position: absolute; right: 0px; border-left: 1px solid rgb(0, 0, 0); height: 26px; }
+
+.block_footer .left, .block_header .left { position: absolute; left: 0px; border-right: 1px solid rgb(0, 0, 0); height: 26px; }
+
+.block_footer img { vertical-align: middle; }
+
+.block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/full_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+
+.leftcol .block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+
+.rightcol .block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_blue.png"); background-repeat: no-repeat; background-color: rgb(41, 47, 53); }
+
+.rightcol .block .block_header_green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_green.png"); }
+
+.block_content h4 { color: rgb(255, 255, 255); }
+
+div#footer { background-color: rgb(0, 0, 0); padding-bottom: 60px; clear: both; }
+
+div.footer_content { width: 940px; margin: 0px auto; padding-top: 12px; font-size: 11px; color: rgb(176, 174, 172); }
+
+.footer_content a { color: rgb(176, 174, 172); }
+
+.footer_content a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+
+.footer_content .rule { border-top: 1px solid rgb(60, 61, 62); margin: 10px 0px; }
+
+.footer_box { border: 1px solid rgb(60, 61, 62); padding: 14px; margin: 10px 0px; }
+
+.footer_box h3 { color: rgb(214, 215, 216); font-weight: bold; font-size: 12px; margin-bottom: 8px; }
+
+.publishercol { float: left; width: 142px; margin-right: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+#footer_logo { margin-right: 8px; padding-top: 1px; float: left; }
+
+#footer_text { float: left; }
+
+.valve_links a { color: rgb(139, 185, 224); }
+
+#footer_nav .pulldown { display: block; float: left; margin-right: 16px; background-color: rgb(38, 38, 38); color: rgb(184, 182, 180); padding: 5px 35px 5px 6px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/ico_search_dropdown.gif"); position: relative; cursor: default; }
+
+#footer_nav .pulldown.focus { background-color: rgb(77, 75, 73); }
+
+#footer_nav .popup_block .popup_body { background-color: rgb(38, 38, 38); background-image: none; }
+
+#footer_nav .popup_block .popup_body, #footer_nav .popup_menu_item { border-color: rgb(0, 0, 0); }
+
+#footer_nav .popup_body h5 { text-transform: none; }
+
+.small_cap { display: block; float: left; width: 184px; height: 106px; padding: 16px 9px 12px; border: 1px solid rgb(38, 38, 38); overflow: hidden; white-space: nowrap; }
+
+.small_cap:hover { border: 1px solid rgb(139, 185, 224); text-decoration: none; }
+
+img.tiny_cap_img { width: 120px; height: 45px; }
+
+img.small_cap_img { width: 184px; height: 69px; }
+
+.small_cap h4 { font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin: 0px 0px 2px; overflow: hidden; text-overflow: ellipsis; }
+
+.small_cap h5 { font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; font-size: 11px; color: rgb(176, 174, 172); font-weight: normal; margin: 0px; }
+
+.movie_cap { display: block; float: left; padding: 9px; border: 1px solid rgb(38, 38, 38); }
+
+.movie_cap:hover { border: 1px solid rgb(139, 185, 224); text-decoration: none; }
+
+.movie_cap_inner { width: 184px; height: 123px; overflow: hidden; position: relative; }
+
+.movie_cap_inner .movie_cap_overlay { position: absolute; bottom: 0px; left: 0px; right: 0px; width: 184px; padding: 4px; }
+
+.movie_cap_overlay h4 { position: relative; font-size: 12px; }
+
+.movie_cap_overlay .movie_cap_overlay_background { position: absolute; inset: 0px; background-color: rgb(0, 0, 0); opacity: 0.7; }
+
+.movie_cap_img { width: 184px; height: 123px; }
+
+.small_cap_scroll { position: relative; width: 6140px; }
+
+.small_cap_pager { width: 614px; height: 272px; overflow: hidden; position: relative; }
+
+.small_cap_pager.onerow, .small_cap_page.onerow { height: 136px; }
+
+.small_cap_pager.onerowvideo, .small_cap_page.onerowvideo { height: 143px; }
+
+.small_cap_page { float: left; width: 614px; height: 272px; }
+
+.promo_area { margin: 0px 0px 12px; text-align: center; position: relative; }
+
+.promo_link { display: block; }
+
+.promo_price { position: absolute; color: rgb(0, 0, 0); padding: 10px; text-align: right; }
+
+.promo_price.promo_price_topright { top: 0px; right: 0px; }
+
+.promo_price .final_price { font-weight: bold; }
+
+.promo_price .currency, .promo_price .dollars, .promo_price .cents { display: block; float: right; }
+
+.promo_price .final_price .currency { font-size: 22px; line-height: 34px; }
+
+.promo_price .final_price .dollars { font-size: 34px; margin-right: 2px; }
+
+.promo_price .final_price .cents { font-size: 22px; line-height: 34px; text-decoration: underline; }
+
+.promo_price .original_price { font-weight: bold; color: rgb(142, 142, 142); }
+
+.promo_price .original_price .dollars { font-size: 22px; text-decoration: line-through; }
+
+.promo_price .original_price .currency { font-size: 14px; line-height: 22px; }
+
+img.promo_header { }
+
+.main_cluster_content { position: relative; width: 616px; height: 401px; overflow: hidden; }
+
+h1.main_cap_status { font-size: 21px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.main_cluster_content .cluster_capsule { width: 616px; height: 353px; }
+
+.main_cluster_content img.cluster_capsule_image { width: 616px; height: 353px; position: relative; }
+
+.colossal_cluster_content { position: relative; width: 616px; height: 716px; overflow: hidden; }
+
+.colossal_cluster_content .cluster_capsule { width: 616px; height: 716px; }
+
+.colossal_cluster_content img.cluster_capsule_image { width: 616px; height: 716px; position: relative; }
+
+.cluster_control_left, .cluster_control_right { position: absolute; top: 16px; height: 44px; color: rgb(139, 185, 224); background-color: rgb(0, 0, 0); padding: 6px; cursor: pointer; }
+
+.cluster_control_left img, .cluster_control_right img { vertical-align: middle; }
+
+.cluster_control_left { left: 0px; padding-right: 16px; }
+
+.cluster_control_right { right: 0px; text-align: right; padding-left: 16px; }
+
+.cluster_scroll_area { position: relative; left: 0px; }
+
+#home_main_cluster { margin-bottom: 27px; }
+
+#main_cluster_control_ctn { height: 13px; padding-top: 2px; padding-bottom: 10px; }
+
+.cluster_capsule { display: block; float: left; margin-right: 4px; position: relative; }
+
+a.cluster_capsule:hover { text-decoration: none; }
+
+a.main_cap:hover { text-decoration: none; }
+
+.main_cap_discount { position: absolute; right: 16px; bottom: 30px; }
+
+.main_cap_price { position: absolute; right: 16px; bottom: 30px; padding: 4px; background: rgb(0, 0, 0); }
+
+.main_cap_desc { width: 616px; height: 86px; overflow: hidden; }
+
+.main_cap_desc .desc_overlay { width: 616px; height: 86px; background-color: rgb(0, 0, 0); opacity: 0.6; }
+
+.main_cap_desc .main_cap_platform_area { padding-top: 5px; float: right; }
+
+.main_cap_desc .main_cap_content { position: relative; padding: 8px 13px 0px; color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; background: rgb(38, 38, 38); height: 50px; overflow: hidden; }
+
+.main_cap_content h1 { white-space: nowrap; line-height: 36px; }
+
+div.slider { height: 13px; position: relative; background-color: rgb(50, 50, 50); }
+
+div#main_cluster_control.slider { height: 22px; position: static; background-color: rgb(38, 38, 38); float: left; width: 428px; border-top: 1px solid rgb(61, 61, 61); border-right: 1px solid rgb(61, 61, 61); border-left: 1px solid rgb(61, 61, 61); border-image: initial; border-bottom: none; margin: 0px 1px; }
+
+div#main_cluster_control_ctn a { float: left; color: rgb(255, 255, 255); cursor: pointer; background: rgb(136, 181, 220); height: 21px; padding: 1px; width: 90px; overflow: hidden; display: block; }
+
+div#main_cluster_control_ctn a.active, div#main_cluster_control_ctn a:hover { background: rgb(136, 181, 220); }
+
+div#main_cluster_control_ctn a { float: left; color: rgb(255, 255, 255); background: linear-gradient(rgb(116, 112, 111) 0%, rgb(110, 106, 105) 100%); height: 21px; padding: 1px; display: block; }
+
+div#main_cluster_control_ctn a:hover { text-decoration: none; }
+
+div#main_cluster_control_ctn a > span > span { width: 4px; height: 5px; display: block; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFBAMAAACKv7BmAAAAJFBMVEX////////////////////////////////////////////////Vd7HLAAAAC3RSTlMA/tScEUBBnRLNyydRu+0AAAAfSURBVAjXY2AIUmVgcJbeaMIwe/fuXQztIBZDkioDAFBWBpQWwSH5AAAAAElFTkSuQmCC"); }
+
+div#main_cluster_control_ctn a > span > span.arrow_prev { float: left; margin: 8px -12px -13px 8px; }
+
+div#main_cluster_control_ctn a > span > span.arrow_next { float: right; margin: 8px 8px -13px -12px; background-position: right center; }
+
+div#main_cluster_control_ctn a > span { width: 100%; display: block; font-size: 11px; text-align: center; line-height: 21px; height: 21px; overflow: hidden; text-transform: uppercase; background: linear-gradient(rgb(90, 86, 84) 0%, rgb(110, 106, 105) 100%); }
+
+div#main_cluster_control_ctn a.active > span, div#main_cluster_control_ctn a:hover > span { background: linear-gradient(rgb(79, 112, 143) 0%, rgb(136, 181, 220) 100%); }
+
+div.slider_next { float: left; }
+
+div.slider div.handle { position: absolute; top: 0px; width: 60px; height: 13px; cursor: pointer; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/control_slider.png"); background-repeat: no-repeat; background-position: left center; }
+
+div#main_cluster_control.slider div.handle { position: static; width: 56px; height: 22px; cursor: pointer; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/slider_button.png"); background-repeat: no-repeat; background-position: left center; }
+
+div.slider div.handle:hover { background-position: right center; }
+
+#main_capsule_control_ctn div.slider { }
+
+.large_cluster_content_twoup { position: relative; width: 940px; height: 254px; overflow: hidden; }
+
+.large_cluster_content_twoup .cluster_control_left { border-left: 1px solid rgb(77, 75, 73); }
+
+.large_cluster_content_twoup .cluster_control_right { border-right: 1px solid rgb(77, 75, 73); }
+
+.large_cap { width: 467px; height: 252px; border: 1px solid rgb(77, 75, 73); }
+
+.cluster_capsule.large_cap { margin-right: 2px; }
+
+a.large_cap:hover { text-decoration: none; }
+
+img.large_cap { width: 467px; height: 181px; position: relative; }
+
+.large_cap_content { padding: 13px 16px; }
+
+.large_cap_content h4 { margin-bottom: 6px; }
+
+.large_cap_content p { color: rgb(176, 174, 172); font-size: 12px; height: 32px; overflow: hidden; text-overflow: ellipsis; }
+
+.large_cap_discount { position: absolute; right: 16px; bottom: 98px; }
+
+.large_cap_desc { position: absolute; left: 0px; bottom: 0px; background-color: rgb(26, 26, 26); width: 467px; height: 71px; overflow: hidden; }
+
+.large_cap_price { position: absolute; right: 16px; line-height: 14px; }
+
+a.btn_browse { display: block; width: 150px; height: 49px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_browse.png"); background-repeat: no-repeat; margin-bottom: 12px; position: relative; float: left; margin-right: 4px; }
+
+a.btn_browse:hover { text-decoration: none; }
+
+.btn_browse h3 { text-shadow: rgb(170, 170, 170) 1px 1px 0px; font-weight: bold; color: rgb(40, 45, 51); font-size: 30px; line-height: 30px; float: left; padding-left: 10px; padding-top: 6px; width: 46px; }
+
+.btn_browse h3 .currency { vertical-align: text-top; font-size: 18px; line-height: 24px; }
+
+.btn_browse h5 { color: rgb(40, 45, 51); font-size: 10px; text-transform: uppercase; font-weight: bold; width: 80px; padding-top: 12px; padding-left: 7px; float: left; }
+
+#home_install_steam { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/about/btn_download_nobg.png"); width: 277px; height: 42px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
+
+#home_install_steam a#home_install_steam_link { display: block; line-height: 42px; margin: 2px auto; padding-left: 42px; font-size: 16px; font-weight: bold; color: rgb(255, 255, 255); text-shadow: rgb(84, 119, 38) -1px -1px 0px; }
+
+a#home_install_steam_link:hover { text-decoration: none; }
+
+#home_install_steam_desc p { margin: 8px 0px; color: rgb(98, 100, 102); }
+
+.btn_white { display: block; width: 219px; height: 48px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_white.png"); background-repeat: no-repeat; }
+
+.btn_white h3 { font-weight: bold; font-size: 16px; color: rgb(255, 255, 255); margin-top: 6px; text-shadow: rgb(129, 129, 129) -1px -1px 0px; margin-left: 13px; }
+
+.btn_white h5 { color: rgb(205, 202, 193); font-size: 10px; text-transform: uppercase; margin-left: 13px; }
+
+.btn_white h3.one_line { line-height: 48px; text-align: center; margin: 0px; }
+
+a.btn_white, a.btn_white h3, a.btn_white h5, a.btn_white:hover, a.btn_white:hover h3, a.btn_white:hover h5 { text-decoration: none !important; }
+
+.btn_gray { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_gray.png"); width: 276px; height: 41px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
+
+.btn_gray a { display: block; line-height: 42px; padding-left: 17px; font-size: 16px; font-weight: normal; color: rgb(255, 255, 255); text-shadow: rgb(84, 82, 80) -1px -1px 0px; text-decoration: none !important; }
+
+.btn_gray a:hover { text-decoration: none !important; }
+
+.btn_green { display: block; width: 219px; height: 48px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_green.png"); background-repeat: no-repeat; }
+
+.btn_green h3 { font-weight: bold; font-size: 16px; color: rgb(255, 255, 255); margin-top: 6px; text-shadow: rgb(129, 129, 129) -1px -1px 0px; margin-left: 13px; }
+
+.btn_green h5 { color: rgb(205, 202, 193); font-size: 10px; text-transform: uppercase; margin-left: 13px; }
+
+.btn_green h3.one_line { line-height: 48px; text-align: center; margin: 0px; }
+
+a.btn_green, a.btn_green h3, a.btn_green h5, a.btn_green:hover, a.btn_green:hover h3, a.btn_green:hover h5 { text-decoration: none !important; }
+
+div.hover { position: absolute; z-index: 400; top: 40px; left: 400px; }
+
+.hover_box { border: 1px solid rgb(130, 128, 124); background-color: rgb(59, 57, 56); width: 306px; color: rgb(176, 174, 172); font-size: 12px; }
+
+.hover_box .content { padding: 16px; }
+
+.hover_box .hover_top_area { margin-bottom: 8px; font-size: 10px; color: rgb(130, 128, 124); }
+
+.hover_box h4 { color: rgb(255, 255, 255); font-weight: normal; font-size: 14px; margin-bottom: 8px; }
+
+.hover_box p, .hover_box .hover_body_block { margin-top: 8px; margin-bottom: 8px; }
+
+.hover_box .rule { border-bottom: 1px solid rgb(130, 128, 124); }
+
+.hover_arrow_left { width: 13px; height: 26px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: left top; position: absolute; top: 48px; left: 0px; }
+
+.hover_arrow_right { width: 13px; height: 26px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: right top; position: absolute; top: 48px; right: 0px; }
+
+.hover_details_block { background-color: rgb(26, 26, 26); padding: 5px; }
+
+.hover_details_specs { height: 26px; margin-bottom: 2px; }
+
+.hover_details_specs .icon { float: left; left: 0px; width: 30px; height: 22px; padding-top: 4px; padding-left: 6px; background-color: rgb(26, 26, 26); }
+
+.hover_details_specs .name { margin-left: 2px; height: 22px; padding-top: 4px; padding-left: 8px; background-color: rgb(26, 26, 26); }
+
+.tabarea { margin-bottom: 28px; }
+
+.tabbar { border-bottom: 1px solid rgb(0, 0, 0); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-position: center bottom; position: relative; }
+
+.tab_content_ctn { }
+
+.tabbar .tab { float: left; font-size: 10px; text-transform: uppercase; color: rgb(205, 202, 193); padding-left: 12px; padding-right: 12px; margin-top: 5px; border-right: 1px solid black; height: 25px; line-height: 25px; cursor: pointer; }
+
+.tabbar .tab .platform_small { vertical-align: text-bottom; }
+
+.tabbar_top_spacer { height: 5px; }
+
+.tabbar .tab.active { background-color: rgb(77, 75, 73); color: rgb(255, 255, 255); cursor: default; margin-top: 2px; padding-top: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px; }
+
+.tab_page { position: relative; overflow: hidden; background-color: rgb(26, 26, 26); border: 1px solid rgb(77, 75, 73); }
+
+.tab_row { position: relative; height: 77px; border-bottom: 1px solid rgb(0, 0, 0); }
+
+.tab_row.tab_row_snippet { height: 125px; }
+
+.tab_row.tab_row_tall { height: 99px; }
+
+.tab_row.even { background-color: rgb(31, 31, 31); }
+
+.tab_row.odd { background-color: rgb(26, 26, 26); }
+
+.tab_row.last { border-bottom: none; }
+
+.tab_item_img { position: absolute; top: 16px; left: 16px; }
+
+.tab_desc { position: absolute; top: 18px; left: 152px; color: rgb(98, 99, 102); font-size: 12px; width: 400px; overflow: hidden; }
+
+.tab_desc h4, .tab_desc .genre_release { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.tab_desc.with_discount { width: 317px; }
+
+.tab_row_snippet .tab_desc, .tab_row_snippet .tab_desc.with_discount { top: 16px; left: 216px; height: 104px; width: 384px; }
+
+.tab_row_snippet .tab_desc h4 { padding-right: 42px; }
+
+.tab_row_snippet .tab_desc.with_discount h4 { padding-right: 96px; }
+
+.tab_row_tall .tab_desc { top: 32px; left: 216px; height: 80px; margin-right: 14px; }
+
+.tab_desc h4 { font-weight: normal; font-size: 14px; color: rgb(255, 255, 255); margin-bottom: 5px; }
+
+.tab_desc p { color: rgb(176, 174, 172); font-size: 12px; }
+
+.tab_discount.discount_pct { position: absolute; width: 46px; height: 19px; line-height: 19px; top: 30px; right: 90px; font-size: 14px; color: rgb(255, 255, 255); text-align: center; }
+
+.tab_price { position: absolute; top: 32px; right: 16px; font-family: tahoma, helvetica, arial, "trebuchet ms", sans-serif; font-size: 11px; color: rgb(176, 174, 172); }
+
+.tab_price .discount_block { background-color: inherit; }
+
+.tab_price .discount_block .discount_pct { font-size: 14px; float: left; padding: 2px; margin-top: 3px; margin-right: 8px; }
+
+.tab_price .discount_block .discount_prices { float: right; text-align: right; }
+
+.tab_row_tall .tab_price, .tab_row_snippet .tab_price { top: 12px; }
+
+.tab_overlay { position: absolute; inset: 0px; z-index: 100; }
+
+.tab_overlay:hover { border: 1px solid rgb(139, 185, 224); }
+
+.tab_overlay img { width: 100%; height: 77px; border: none; }
+
+.tab_row_tall .tab_overlay img { height: 100px; }
+
+.tab_row_snippet .tab_overlay img { height: 118px; }
+
+.tab_overlay a:focus { outline: none 0px; }
+
+.tab_page_link_holder { position: relative; text-align: center; height: 24px; line-height: 24px; margin-top: 1px; background-color: rgb(38, 38, 38); color: rgb(98, 99, 102); font-size: 10px; }
+
+.tab_page_count { color: rgb(133, 131, 124); }
+
+.tab_page_link img { border: none; vertical-align: middle; }
+
+.tab_page_link_holder div { }
+
+.tab_page_link_prev, .tab_page_link_next { position: absolute; height: 24px; padding: 0px 16px; }
+
+.tab_page_link a:hover, .small_cap_scroll_btn a:hover { text-decoration: none; }
+
+.tab_page_link a, .small_cap_scroll_btn a { color: rgb(176, 174, 172); text-transform: uppercase; }
+
+.tab_page_link_prev { left: 0px; border-right: 1px solid rgb(0, 0, 0); }
+
+.tab_page_link_next { right: 0px; border-left: 1px solid rgb(0, 0, 0); }
+
+img.platform_small, img.platform_img { vertical-align: middle; margin-right: 1px; }
+
+.genre_release img.platform_img:last-child { margin-right: 6px; }
+
+.spotlight_scroll_ctn { overflow: hidden; position: relative; }
+
+.spotlight_scroll_ctn .home_area_spotlight { left: 0px; top: 0px; }
+
+.home_area_spotlight { font-size: 12px; color: rgb(176, 174, 172); }
+
+.home_area_spotlight h3 { font-size: 24px; font-weight: normal; color: rgb(255, 255, 255); }
+
+.home_area_spotlight h3, .home_area_spotlight h5, .home_area_spotlight .spotlight_body { margin-left: 14px; margin-right: 14px; }
+
+.home_area_spotlight .spotlight_body { padding-bottom: 14px; }
+
+.home_area_spotlight .spotlight_img { padding-bottom: 10px; }
+
+.discount_block_spotlight { height: 32px; float: left; }
+
+.discount_block_spotlight .discount_pct { font-size: 26px; float: left; padding: 0px 5px; height: 32px; line-height: 30px; }
+
+.discount_block_spotlight .discount_prices { float: left; text-align: left; padding: 0px 6px; }
+
+.discount_block_spotlight .discount_original_price { font-size: 11px; }
+
+.discount_block_spotlight .discount_final_price { font-size: 13px; }
+
+.dailydeal { position: relative; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/dailydeal.png"); background-repeat: no-repeat; width: 308px; height: 175px; font-size: 10px; }
+
+.dailydeal .title { position: absolute; top: 5px; left: 14px; color: rgb(255, 255, 255); font-weight: bold; line-height: 13px; }
+
+.dailydeal .timerlabel { position: absolute; top: 5px; color: rgb(34, 34, 34); line-height: 13px; right: 72px; }
+
+.dailydeal .timer { position: absolute; top: 5px; right: 21px; height: 13px; line-height: 13px; text-align: right; color: rgb(139, 185, 224); }
+
+.dailydeal .cap { position: absolute; left: 8px; top: 31px; }
+
+.dailydeal .cap, .dailydeal .cap img { width: 292px; height: 136px; }
+
+.dailydeal_content { padding: 8px; }
+
+.friend_status_offline, .friend_status_offline div, .friend_status_offline a { color: rgb(137, 137, 137); }
+
+.friend_status_online, .friend_status_online div, .friend_status_online a { color: rgb(111, 189, 255); }
+
+.friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a { color: rgb(177, 251, 80); }
+
+.friend_block_avatar { width: 32px; height: 32px; background-repeat: no-repeat; padding: 4px; margin-right: 2px; }
+
+.friend_status_offline .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_offline.jpg"); }
+
+.friend_status_online .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_online.jpg"); }
+
+.friend_status_in-game .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_ingame.jpg"); }
+
+.friend_block_text { }
+
+.friend_block_text a { text-decoration: none; }
+
+.friend_block_text .friend_and_others_link { margin-top: 6px; }
+
+.friend_block_text .friend_and_others_link a { color: rgb(176, 174, 172); font-size: 11px; }
+
+.friend_block_text .friend_and_others_link a:hover { color: rgb(255, 255, 255); }
+
+.friend_activity { position: relative; height: 56px; }
+
+.friend_activity .friend_block_avatar { position: absolute; top: 0px; left: 0px; }
+
+.friend_activity .friend_block_text { display: block; position: absolute; width: 96px; top: 6px; left: 48px; font-size: 10px; }
+
+.friend_activity .friend_block_text .friend_name { font-size: 11px; font-weight: bold; }
+
+.friend_game_block { position: relative; height: 56px; }
+
+.home_friend_game_block { padding-left: 132px; }
+
+.friend_game_block .friend_activity { display: block; width: 150px; }
+
+.friend_game_block .game_capsule { position: absolute; top: 0px; right: 0px; width: 120px; height: 45px; }
+
+.home_friend_game_block .game_capsule { right: auto; left: 0px; }
+
+.friend_game_block .game_capsule img { width: 120px; height: 45px; }
+
+.friend_blocks_row .friend_block_holder { float: left; margin-right: 5px; width: 40px; height: 40px; }
+
+.friend_activity:hover, .friend_block_text:hover { text-decoration: none; }
+
+.friend_activity_label { margin-bottom: 11px; }
+
+a.linkbar { display: block; position: relative; height: 22px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/bg_link_bar.png"); background-repeat: no-repeat; background-position: right center; padding-top: 8px; color: rgb(176, 174, 172); margin-bottom: 2px; text-decoration: none; }
+
+a.linkbar:hover { text-decoration: none; color: rgb(255, 255, 255); }
+
+.linkbar .rightblock { position: absolute; right: 8px; }
+
+h1.blue, h2.blue { color: rgb(139, 185, 224); }
+
+.labeltext { color: rgb(98, 99, 102); font-size: 10px; text-transform: uppercase; }
+
+.chart_data { margin-left: 12px; }
+
+#community_activity_note { font-size: 10px; color: rgb(176, 174, 172); font-weight: normal; }
+
+.community_activity_link { display: block; }
+
+.community_activity_link:hover { }
+
+.community_activity_signin_buttons { padding-top: 16px; }
+
+.community_activity_signin_buttons .btn_checkout_green, .community_activity_signin_buttons .community_activity_or { float: left; line-height: 24px; margin-right: 8px; }
+
+.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
+
+.popup_block { z-index: 200; position: absolute; }
+
+.popup_block .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
+
+.popup_block .header { padding: 4px 16px; height: 18px; font-size: 12px; font-weight: bold; color: rgb(214, 215, 216); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+
+.popup_block .popup_body.popup_menu { }
+
+.popup_menu .popup_menu_item { display: block; padding: 5px 12px; color: rgb(229, 228, 220); text-transform: none; font-size: 11px; font-weight: bold; line-height: normal; }
+
+.popup_menu span.popup_menu_item { cursor: default; }
+
+.popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus { text-decoration: none; background-color: rgb(33, 45, 61); }
+
+#genre_tab { z-index: 300; position: relative; }
+
+#genre_tab, #genre_tab .pulldown { cursor: default; }
+
+.shadow_content { margin: 12px; }
+
+.shadow_ul, .shadow_ur, .shadow_bl, .shadow_br { position: absolute; height: 12px; width: 12px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_corners.png"); }
+
+.shadow_ul { top: 0px; left: 0px; background-position: left top; }
+
+.shadow_ur { top: 0px; right: 0px; background-position: right top; }
+
+.shadow_bl { bottom: 0px; left: 0px; background-position: left bottom; }
+
+.shadow_br { bottom: 0px; right: 0px; background-position: right bottom; }
+
+.shadow_top, .shadow_bottom { position: absolute; margin: 0px 12px; height: 12px; left: 0px; right: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_topbottom.png"); background-repeat: repeat-x; }
+
+.shadow_top { background-position: center top; top: 0px; }
+
+.shadow_bottom { background-position: center bottom; bottom: 0px; }
+
+.shadow_left, .shadow_right { position: absolute; top: 0px; bottom: 0px; margin: 12px 0px; width: 12px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_leftright.png"); background-repeat: repeat-y; }
+
+.shadow_left { background-position: left center; left: 0px; }
+
+.shadow_right { background-position: right center; right: 0px; }
+
+.suppress_shadow .shadow_ul, .suppress_shadow .shadow_ur, .suppress_shadow .shadow_bl, .suppress_shadow .shadow_br, .suppress_shadow .shadow_top, .suppress_shadow .shadow_bottom, .suppress_shadow .shadow_left, .suppress_shadow .shadow_right { background-image: none; }
+
+.page_title_area { padding-top: 7px; margin-bottom: 18px; }
+
+.page_title { font-weight: bold; font-size: 30px; }
+
+.page_title div.blockbg { padding: 0px 9px 0px 6px; height: 36px; background-color: rgb(205, 202, 193); color: rgb(0, 0, 0); }
+
+.blockbg { background-color: rgb(0, 0, 0); padding: 0px 4px; float: left; }
+
+.breadcrumbs { font-size: 14px; color: rgb(98, 100, 103); }
+
+.breadcrumbs a { color: rgb(176, 174, 172); }
+
+h2.pageheader { color: rgb(176, 174, 172); }
+
+.special_block { position: relative; display: block; height: 45px; margin-bottom: 8px; }
+
+.special_block .special_tiny_cap { position: absolute; left: 0px; top: 0px; }
+
+.special_block .special_tiny_cap img { width: 120px; height: 45px; }
+
+.special_block .discount_block { position: absolute; right: 0px; top: 16px; }
+
+div.autocomplete { margin: 0px; padding: 0px; width: 250px; background: rgb(187, 187, 187); border: 1px solid rgb(172, 172, 172); position: absolute; color: rgb(0, 0, 0); z-index: 500; }
+
+div.autocomplete ul { margin: 0px; padding: 0px; list-style-type: none; }
+
+div.autocomplete ul li.selected { color: white; background-color: rgb(61, 61, 61); }
+
+div.autocomplete ul li { margin: 0px; padding: 3px 2px; display: block; list-style-type: none; cursor: pointer; }
+
+#debug_log { position: absolute; right: 4px; top: 173px; background-color: rgb(51, 51, 51); border: 1px solid rgb(149, 0, 0); padding: 6px; }
+
+.btn_checkout_green, .btn_checkout_blue, .btn_checkout_gray { display: block; position: relative; height: 28px; background-repeat: repeat-x; padding: 0px 17px; text-transform: uppercase; font-size: 11px; color: rgb(255, 255, 255); line-height: 24px; text-align: center; cursor: pointer; }
+
+.btn_checkout_green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_active_bg.png"); }
+
+.btn_checkout_green .leftcap, .btn_checkout_green .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_active_corners.png"); }
+
+.btn_checkout_blue { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_blue_bg.png"); }
+
+.btn_checkout_blue .leftcap, .btn_checkout_blue .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_blue_corners.png"); }
+
+.btn_checkout_gray, .btn_checkout_gray .leftcap, .btn_checkout_gray .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_gray_comp.png"); }
+
+a.btn_checkout_green, a.btn_checkout_green:hover, a.btn_checkout_blue, a.btn_checkout_blue:hover, a.btn_checkout_gray, a.btn_checkout_gray:hover { text-decoration: none; color: rgb(255, 255, 255) !important; }
+
+.btn_checkout_green .leftcap, .btn_checkout_green .rightcap, .btn_checkout_blue .leftcap, .btn_checkout_blue .rightcap, .btn_checkout_gray .leftcap, .btn_checkout_gray .rightcap { position: absolute; top: 0px; height: 28px; width: 4px; }
+
+.btn_checkout_green .leftcap, .btn_checkout_blue .leftcap, .btn_checkout_gray .leftcap { left: 0px; background-position: left bottom; }
+
+.btn_checkout_green .rightcap, .btn_checkout_blue .rightcap, .btn_checkout_gray .rightcap { right: 0px; background-position: right bottom; }
+
+.btn_checkout_green.disabled, .btn_checkout_gray.disabled { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_inactive_bg.png"); color: rgb(98, 100, 103); cursor: default; }
+
+.btn_checkout_green.disabled .leftcap, .btn_checkout_green.disabled .rightcap, .btn_checkout_gray.disabled .leftcap, .btn_checkout_gray.disabled .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_inactive_corners.png"); }
+
+.iepopupfix { display: none; position: absolute; inset: 0px; overflow: hidden; }
+
+img.iepopupfix_img { width: 200px; height: 500px; }
+
+.recommendation_btn, .recommendation_imgbtn { display: inline-block; line-height: 22px; height: 22px; color: rgb(130, 128, 124); font-size: 11px; background-color: rgb(26, 26, 26); border-radius: 3px; }
+
+.recommendation_btn.lighter { background-color: rgb(38, 38, 38); color: rgb(176, 174, 172); }
+
+.recommendation_imgbtn { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/recommended/recommended_buttons.png"); background-repeat: no-repeat; width: 22px; height: 22px; }
+
+.recommendation_imgbtn.wishlist { background-position: center 0px; }
+
+a.recommendation_imgbtn.wishlist:hover { background-position: center -22px; }
+
+.recommendation_imgbtn.remove { background-position: center -44px; }
+
+a.recommendation_imgbtn.remove:hover { background-position: center -66px; }
+
+.recommendation_btn { padding: 0px 6px; }
+
+a.recommendation_btn:hover, a.recommendation_imgbtn:hover { text-decoration: none; background-color: rgb(151, 192, 227); color: rgb(60, 61, 62); }
+
+.news_row { line-height: 26px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.news_link { font-size: 14px; }
+
+.news_date { font-size: 10px; color: rgb(98, 99, 102); text-transform: uppercase; }
+
+ul.squares { list-style-position: inside; list-style-type: square; line-height: 22px; }
+
+ul.squares li { }
+
+#forum_bullets ul { list-style-type: square; line-height: 22px; padding-left: 14px; }
+
+#forum_bullets strong { color: rgb(255, 255, 255); }
+
+.share { color: rgb(102, 100, 101); font-size: 10px; text-transform: uppercase; line-height: 14px; }
+
+.share img { vertical-align: baseline; }
+
+#page_background_holder { position: absolute; width: 100%; left: 0px; overflow: hidden; z-index: 1; min-width: 972px; }
+
+#page_background { text-align: center; background-position: center top; background-repeat: no-repeat; height: 1024px; min-width: 972px; }
+
+#main_content { z-index: 2; position: relative; }
+
+.game_purchase_action_bg { height: 34px; background-color: rgb(60, 61, 62); padding: 3px 3px 3px 0px; border-radius: 3px; }
+
+.game_purchase_action .game_purchase_price, .game_purchase_action .game_purchase_discount, .game_purchase_action .btn_addtocart, .game_purchase_action .btn_packageinfo, .game_purchase_action .game_purchase_action_bg { float: left; margin-left: 3px; }
+
+.game_purchase_action .game_purchase_price { background-color: rgb(0, 0, 0); font-size: 13px; padding-top: 8px; padding-left: 12px; padding-right: 12px; height: 26px; }
+
+.btn_addtocart { position: relative; height: 34px; }
+
+.btn_addtocart .btn_addtocart_left, .btn_addtocart .btn_addtocart_right { position: absolute; width: 2px; height: 34px; top: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_corners.gif"); }
+
+.btn_addtocart.btn_packageinfo .btn_addtocart_left, .btn_addtocart.btn_packageinfo .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_packageinfo_corners.gif"); }
+
+.btn_addtocart.btn_addtocart_blue .btn_addtocart_left, .btn_addtocart.btn_addtocart_blue .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_blue_corners.jpg"); }
+
+.btn_addtocart.btn_clickfordetails .btn_addtocart_left, .btn_addtocart.btn_clickfordetails .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_clickfordetails_corners.gif"); }
+
+.btn_addtocart .btn_addtocart_left { background-position: left center; left: 0px; }
+
+.btn_addtocart .btn_addtocart_right { background-position: right center; right: 0px; }
+
+.btn_addtocart a.btn_addtocart_content { display: inline-block; height: 34px; font-size: 11px; color: rgb(255, 255, 255); text-align: center; padding: 0px 11px; line-height: 34px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_repeat.gif"); background-repeat: repeat-x; text-transform: uppercase; }
+
+.btn_addtocart.btn_packageinfo a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_packageinfo_repeat.gif"); }
+
+.btn_addtocart.btn_addtocart_blue a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_blue_repeat.jpg"); }
+
+.btn_addtocart.btn_clickfordetails a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_clickfordetails_repeat.gif"); }
+
+.btn_addtocart a.btn_addtocart_content:hover { text-decoration: none; }
+
+.game_purchase_discount { height: 34px; }
+
+.game_purchase_discount .discount_pct { position: absolute; left: 0px; width: 69px; height: 34px; line-height: 34px; font-size: 25px; text-align: center; }
+
+.game_purchase_discount .discount_original_price { position: absolute; left: 76px; top: 2px; font-size: 11px; }
+
+.game_purchase_discount .discount_final_price { padding-left: 76px; padding-top: 13px; padding-right: 6px; font-size: 14px; }
+
+.game_purchase_discount.suppress_discount_pct .discount_original_price, .game_purchase_discount.suppress_discount_pct .discount_final_price { margin-left: 4px; left: 4px; }
+
+.btn_client, body a.btn_client { display: inline-block; border: 1px solid rgb(111, 110, 108); border-radius: 3px; color: rgb(229, 226, 223); text-transform: uppercase; text-decoration: none; height: 22px; line-height: 22px; padding-left: 5px; min-width: 85px; text-align: left; font-size: 11px; margin-left: 15px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/client_btn.png"); background-position: center top; }
+
+.btn_client.primary { border-color: rgb(153, 147, 141); }
+
+.btn_client:hover, body a.btn_client:hover { text-decoration: none; color: rgb(255, 255, 255); border-color: rgb(153, 147, 141); }
+
+.btn_client:active, body a.btn_client:active { background-position: center bottom; border-color: rgb(112, 109, 105); }
+
+.btn_checkout_green.btn_checkout_green_client_style { display: inline-block; padding-left: 8px; padding-right: 0px; font-size: 11px; min-width: 85px; margin-left: 12px; margin-right: 0px; text-align: left; }
+
+.btn_client_small { display: inline-block; border: none; border-radius: 3px; color: rgb(255, 255, 255); text-decoration: none; padding: 3px 5px; font-size: 11px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/client_btn.png"); background-position: center top; }
+
+.btn_client_small a { color: rgb(225, 225, 225); }
+
+.get_game_on_steam { float: right; margin-top: -3px; }
+
+.new_releases_filter_block { background-color: rgb(77, 75, 73); padding: 6px 0px 6px 11px; }
+
+.store_checkbox_button { display: inline-block; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_checkbox.png") left top no-repeat; cursor: pointer; height: 12px; font-size: 10px; text-transform: uppercase; color: rgb(146, 142, 138); padding: 2px 0px 2px 23px; }
+
+.store_checkbox_button.checked { background-position: left bottom; color: rgb(193, 188, 183); }
+
+#header_notification_area { float: left; margin-right: 3px; margin-top: -6px; margin-left: 8px; }
+
+.header_notification_btn { position: relative; height: 29px; cursor: pointer; }
+
+.header_notification_empty { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_notification_grey.png"); background-repeat: no-repeat; background-position: center top; width: 29px; }
+
+.header_notification_empty:hover, .header_notification_empty.focus { background-position: center bottom; }
+
+.header_notification_green { padding: 0px 28px 0px 10px; background-repeat: repeat-x; background-position: 0px -29px; line-height: 29px; font-weight: bold; color: rgb(255, 255, 255); }
+
+.header_notification_green, .header_notification_green .leftcap, .header_notification_green .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_notification_green.png"); }
+
+.header_notification_green:hover, .header_notification_green.focus { background-position: 0px -87px; }
+
+.header_notification_green:hover .leftcap, .header_notification_green.focus .leftcap { background-position: 0px -58px; }
+
+.header_notification_green:hover .rightcap, .header_notification_green.focus .rightcap { background-position: right -58px; }
+
+.header_notification_green .leftcap { position: absolute; left: 0px; top: 0px; width: 5px; height: 29px; background-position: left top; }
+
+.header_notification_green .rightcap { position: absolute; right: 0px; top: 0px; width: 20px; height: 29px; background-position: right top; }
+
+#header_notification_dropdown .popup_menu_item { line-height: 30px; padding: 0px 12px; background-repeat: no-repeat; background-position: left center; color: rgb(191, 191, 191); }
+
+#header_notification_dropdown .popup_menu_item.active_inbox_item { color: rgb(112, 186, 36); }
+
+.header_notification_dropdown_seperator { margin: 0px 7px; height: 1px; background-color: rgb(107, 104, 101); }
+
+.notification_icon { display: block; float: left; width: 16px; height: 30px; background-repeat: no-repeat; background-position: center center; margin-right: 16px; }
+
+.header_notification_comments .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_comment.png"); }
+
+.header_notification_items .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_item.png"); }
+
+.header_notification_invites .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_invite.png"); }
+
+.header_notification_gifts .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_gift.png"); }
+
+.header_notification_offlinemessages .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_offlinemessages.png"); }
+
+#package_header_container { background-color: rgb(0, 0, 0); padding: 15px; }
+
+#package_savings_bar { background-color: rgb(38, 38, 38); border-radius: 3px; color: rgb(139, 197, 63); margin: 20px 0px 5px; height: 34px; }
+
+#package_savings_bar > .message { padding: 8px; font-size: 12px; }
+
+#package_savings_bar > .savings { text-align: right; width: 140px; position: relative; float: right; font-size: 14px; padding: 8px; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/package_arrow.png") left top no-repeat; }
+
+.perf_timing_area { width: 936px; margin: 0px auto 48px; text-align: center; color: rgb(176, 174, 172); }
+
+.perf_timing_link { }
+
+.perf_timing_data { text-align: left; background-color: rgb(0, 0, 0); padding: 8px; }
+
+a.item_action { display: inline-block; border: 1px solid rgb(153, 147, 141); border-radius: 3px; color: rgb(229, 226, 223); height: 22px; line-height: 22px; font-size: 11px; padding: 0px 19px; margin-right: 22px; background-repeat: repeat-x; background-color: rgb(92, 89, 87); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAIAAACOpGH9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAClJREFUeNpiyExLZvr//z8G/vcPRP8D0/+A9H8o/e8fMhuhBk0/QIABALdaQAnvsp4ZAAAAAElFTkSuQmCC"); }
+
+.popup_menu .hr { height: 1px; background-color: rgb(130, 128, 124); width: 90%; margin: auto; }
+
+.store_nav .tab { padding: 1px; display: inline-block; text-decoration: none; cursor: pointer; background: linear-gradient(rgb(116, 112, 111) 0%, rgb(110, 106, 105) 100%); }
+
+.store_nav .tab > span { font-size: 11px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 33px; padding: 0px 15px; display: block; background: linear-gradient(rgb(90, 86, 84) 0%, rgb(110, 106, 105) 100%); }
+
+.store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus { background: rgb(130, 128, 124); filter: none; }
+
+.store_nav .tab.active, .store_nav .tab.active:hover { background: linear-gradient(rgb(136, 181, 220) 0%, rgb(136, 181, 220) 100%); }
+
+.store_nav .tab.active > span, .store_nav .tab.active:hover > span { background: linear-gradient(rgb(79, 112, 143) 0%, rgb(136, 181, 220) 100%); }
+
+.store_nav .tab > span.pulldown { padding-right: 7px; }
+
+.store_nav .tab > span.pulldown > span { width: 19px; height: 12px; padding: 0px; display: inline-block; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_arrow_down_padded.png"); background-position: center center; background-repeat: no-repeat; cursor: pointer; vertical-align: text-bottom; }
+
+.block_greenlight { position: relative; }
+
+.block_greenlight p { margin-bottom: 5px; }
+
+.block_greenlight .bgblock { float: left; width: 97px; height: 97px; }
+
+.block_greenlight .bgblock > img { width: 97px; height: 97px; }
+
+.block_greenlight .container { position: absolute; left: 16px; top: 74px; width: 582px; height: 148px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/StoreHomeBanner_slice.png"); }
+
+.block_greenlight .container > a { position: absolute; top: 55px; left: 50px; }
+
+.leftcol .block .block_header.green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/green_header.png"); }
+
+.block_header.green .right a { color: rgb(214, 215, 215); }
+
+.btn_greenlight > span { padding: 0px 15px; font-size: 15px; line-height: 30px; }
+
+.osrestricted_alternate_mac, .osrestricted_alternate_windows { background: 4px 1px no-repeat rgb(188, 188, 188); color: rgb(66, 66, 66); font-size: 14px; font-family: arial; height: 25px; padding-top: 9px; padding-left: 40px; border-radius: 3px; margin-bottom: 1em; }
+
+.osrestricted_alternate_mac > a, .osrestricted_alternate_windows > a { color: rgb(66, 66, 66); text-decoration: underline; }
+
+.osrestricted_alternate_mac { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/platforms/platform_mac_large.png"); }
+
+.osrestricted_alternate_windows { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/platforms/platform_pc_large.png"); }
+
+div#global_header .menuitem_new { position: absolute; top: 27px; font-size: 11px; color: rgb(133, 176, 223); }
+
+div#global_header .submenuitem { text-decoration: none; text-transform: uppercase; font-size: 11px; color: rgb(184, 182, 180); padding-right: 10px; }
+
+div#global_header .submenuitem.active, div#global_header .submenuitem:hover { text-decoration: none; color: rgb(255, 255, 255); }
+
+div#global_header .submenuitem.moderator { color: rgb(184, 0, 0); }
+
+div#global_header .submenuitem.active.moderator, div#global_header .submenuitem.moderator:hover { color: rgb(255, 0, 0); }
+
+.community_sub_nav { position: absolute; left: 7px; top: 65px; width: 650px; font-size: 14px; }
+
+.menuitem.username { max-width: 250px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+
+.supernav_content { max-width: 132px; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/shared/images/dd_web.jpg") left top no-repeat rgb(0, 0, 0); padding: 5px 15px 10px; box-shadow: rgb(0, 0, 0) 3px 3px 5px -3px; text-align: left; z-index: 500; }
+
+.supernav_content > a { display: block; padding: 6px 0px; text-transform: uppercase; font-size: 12px; }
+
+.supernav_content > a:hover { color: rgb(72, 151, 207); text-decoration: none; }
+
+.game_purchase_subscription { color: rgb(255, 153, 0); }
+@charset "utf-8";
+
+.btn_green_white_innerfade { border-radius: 2px; padding: 1px; display: inline-block; text-decoration: none; cursor: pointer; border: none; background: linear-gradient(rgb(164, 208, 7) 5%, rgb(107, 136, 5) 95%); color: rgb(255, 255, 255) !important; }
+
+.btn_green_white_innerfade > span { border-radius: 2px; display: block; background: linear-gradient(rgb(139, 176, 6) 5%, rgb(107, 136, 5) 95%); }
+
+.btn_green_white_innerfade:hover { text-decoration: none; background: linear-gradient(rgb(182, 217, 8) 5%, rgb(128, 160, 6) 95%); }
+
+.btn_green_white_innerfade:hover > span { background: linear-gradient(rgb(161, 191, 7) 5%, rgb(128, 160, 6) 95%); }
+
+.btn_blue_white_innerfade { border-radius: 2px; padding: 1px; display: inline-block; text-decoration: none; cursor: pointer; border: none; background: linear-gradient(rgb(170, 206, 255) 5%, rgb(60, 96, 145) 95%); color: rgb(255, 255, 255) !important; }
+
+.btn_blue_white_innerfade > span { border-radius: 2px; display: block; background: linear-gradient(rgb(130, 166, 215) 5%, rgb(60, 96, 145) 95%); }
+
+.btn_blue_white_innerfade:hover { text-decoration: none; background: linear-gradient(rgb(187, 216, 255) 5%, rgb(72, 115, 167) 95%); }
+
+.btn_blue_white_innerfade:hover > span { background: linear-gradient(rgb(154, 183, 222) 5%, rgb(72, 115, 167) 95%); }
+
+.btn_darkblue_white_innerfade { border-radius: 2px; padding: 1px; display: inline-block; text-decoration: none; cursor: pointer; border: none; background: linear-gradient(rgb(87, 116, 158) 5%, rgb(54, 73, 99) 95%); color: rgb(255, 255, 255) !important; }
+
+.btn_darkblue_white_innerfade > span { border-radius: 2px; display: block; background: linear-gradient(rgb(68, 91, 124) 5%, rgb(54, 73, 99) 95%); }
+
+.btn_darkblue_white_innerfade:hover { text-decoration: none; background: linear-gradient(rgb(104, 139, 177) 5%, rgb(65, 88, 119) 95%); }
+
+.btn_darkblue_white_innerfade:hover > span { background: linear-gradient(rgb(82, 109, 149) 5%, rgb(65, 88, 119) 95%); }
+
+.btn_grey_white_innerfade { border-radius: 2px; padding: 1px; display: inline-block; text-decoration: none; cursor: pointer; border: none; background: linear-gradient(rgb(179, 179, 179) 5%, rgb(72, 72, 72) 95%); color: rgb(255, 255, 255) !important; }
+
+.btn_grey_white_innerfade > span { border-radius: 2px; display: block; background: linear-gradient(rgb(126, 126, 126) 5%, rgb(72, 72, 72) 95%); }
+
+.btn_grey_white_innerfade:hover { text-decoration: none; background: linear-gradient(rgb(194, 194, 194) 5%, rgb(86, 86, 86) 95%); }
+
+.btn_grey_white_innerfade:hover > span { background: linear-gradient(rgb(150, 150, 150) 5%, rgb(86, 86, 86) 95%); }
+
+.btn_grey_grey_outer_bevel, a.btn_grey_grey_outer_bevel, .btn_grey_black_outer_bevel, a.btn_grey_black_outer_bevel { border-radius: 2px; display: inline-block; color: rgb(130, 130, 130); cursor: pointer; text-decoration: none; padding: 1px; background: linear-gradient(rgb(85, 85, 85) 5%, black 95%); }
+
+a.btn_grey_grey_outer_bevel:hover { background: linear-gradient(rgb(151, 192, 227) 5%, black 95%); }
+
+.btn_grey_grey_outer_bevel > span { display: block; background-color: rgb(44, 44, 44); }
+
+a.btn_grey_grey_outer_bevel:hover > span { display: block; background-color: rgb(151, 192, 227); color: rgb(0, 0, 0); text-decoration: none; }
+
+.inner_bevel { box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 5px inset, rgb(150, 150, 150) -2px -2px 5px inset; }
+
+.btn_grey_grey, a.btn_grey_grey, .btn_grey_black, a.btn_grey_black { border-radius: 2px; display: inline-block; color: rgb(130, 130, 130); cursor: pointer; padding-top: 1px; padding-bottom: 1px; text-decoration: none; border: none; }
+
+.btn_grey_grey { background-color: rgb(44, 44, 44); }
+
+.btn_grey_black { background-color: rgb(26, 26, 26); }
+
+.btn_grey_grey_outer_bevel:hover, .btn_grey_grey:hover, .btn_grey_black:hover { background-color: rgb(151, 192, 227); color: rgb(0, 0, 0); text-decoration: none; }
+
+.btn_grey_grey.btn_medium.btn_comments, .btn_grey_black.btn_medium.btn_comments { background-position: 9px 7px; }
+
+.btn_grey_grey.btn_comments span, .btn_grey_black.btn_comments span { padding-left: 2px; }
+
+.btn_border_2px { border-radius: 4px; border: 2px solid rgb(62, 70, 31); }
+
+btn_border_2px > span { border-radius: 3px; }
+
+.btn_large > span { padding: 0px 15px; font-size: 16px; line-height: 40px; }
+
+.btn_medium_tall > span { padding: 0px 15px; font-size: 15px; line-height: 36px; }
+
+.btn_medium > span { padding: 0px 15px; font-size: 15px; line-height: 30px; }
+
+.btn_medium_thin > span { padding: 0px 5px; font-size: 15px; line-height: 30px; }
+
+.btn_medium_wide > span { padding: 0px 24px; font-size: 15px; line-height: 30px; }
+
+.btn_small > span { padding: 0px 15px; font-size: 12px; line-height: 20px; }
+
+.btn_small_thin > span { padding: 0px 5px; font-size: 12px; line-height: 20px; }
+
+.btn_small_wide > span { padding: 0px 24px; font-size: 12px; line-height: 20px; }
+
+.btn_uppercase > span { text-transform: uppercase; }
+
+.btn_grey_grey.btn_ico_thumbs_up, .btn_grey_black.btn_ico_thumbs_up { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
+
+.btn_grey_grey.btn_ico_thumbs_up:hover, .btn_grey_black.btn_ico_thumbs_up:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup_hover.png"); }
+
+.btn_grey_grey.btn_ico_thumbs_up.active, .btn_grey_black.btn_ico_thumbs_up.active { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup_green.png"); }
+
+.btn_grey_grey.btn_ico_thumbs_up.active:hover { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
+
+.btn_grey_grey.btn_ico_thumbs_down, .btn_grey_black.btn_ico_thumbs_down { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 15px; }
+
+.btn_grey_grey.btn_ico_thumbs_down:hover, .btn_grey_black.btn_ico_thumbs_down:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown_hover.png"); }
+
+.btn_grey_grey.btn_ico_thumbs_down.active, .btn_grey_black.btn_ico_thumbs_down.active { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown_red.png"); }
+
+.btn_grey_grey.btn_ico_thumbs_down.active:hover { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
+
+.btn_grey_grey.btn_ico_comments, .btn_grey_black.btn_ico_comments { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_comment.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
+
+.btn_grey_grey.btn_ico_comments:hover, .btn_grey_black.btn_ico_comments:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_comment_hover.png"); }
+
+.btn_details_arrow { display: inline-block; width: 15px; height: 16px; background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_double_arrows.png"); vertical-align: middle; }
+
+.btn_details_arrow.up { background-position: 0px 0px; }
+
+.btn_details:hover .btn_details_arrow.up { background-position: -15px 0px; }
+
+.btn_details_arrow.down { background-position: 15px 0px; }
+
+.btn_details:hover .btn_details_arrow.down { background-position: 30px 0px; }

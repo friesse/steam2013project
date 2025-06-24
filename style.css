@@ -110,8 +110,6 @@ div#wm-ipp-sparkline { position: relative; white-space: nowrap; background-color
 
 #wm-ipp #wm-expand #wm-expand-icon { display: inline-block; transition: transform 0.5s ease 0s; transform-origin: 50% 45%; }
 
-#wm-ipp #wm-expand.wm-open #wm-expand-icon { transform: rotate(180deg); }
-
 #wm-ipp #wmtb { text-align: right; }
 
 #wm-ipp #wmtb #wmtbURL { width: calc(100% - 45px); }
@@ -497,13 +495,13 @@ body.wm-modal #donato #donato-base { position: fixed; inset: 0px; z-index: 21474
 
 .miniprofile_arrow_right .miniprofile_arrow_inner { right: 2px; }
 
-.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
+.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("./img/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
 
-span.popup_menu_pulldown_indicator { display: inline-block; background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/btn_arrow_down.png"); vertical-align: middle; width: 9px; height: 4px; }
+span.popup_menu_pulldown_indicator { display: inline-block; background-image: url("./img/btn_arrow_down.png"); vertical-align: middle; width: 9px; height: 4px; }
 
 .popup_block_new { z-index: 200; position: absolute; box-shadow: rgb(0, 0, 0) 0px 0px 12px; }
 
-.popup_block_new .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("https://web.archive.org/web/20130601173640im_/http://store.steampowered.com/public/shared/images/popups/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
+.popup_block_new .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("./img/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
 
 .popup_block_new .popup_body.popup_menu { }
 
@@ -596,9 +594,9 @@ div#footer, div#global_header, div#store_header, div#main, div.page_area { paddi
 
 div.page_content { width: 940px; margin: 0px auto; }
 
-div#global_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_bg.jpg"); background-color: rgb(0, 0, 0); border-bottom: 1px solid rgb(77, 75, 72); background-position: center top; }
+div#global_header { background-image: url("./img/globalheader_bg.jpg"); background-color: rgb(0, 0, 0); border-bottom: 1px solid rgb(77, 75, 72); background-position: center top; }
 
-div#global_header .content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_bg.jpg"); background-position: center top; position: relative; width: 940px; height: 104px; margin: 0px auto; z-index: 402; }
+div#global_header .content { background-image: url("./img/globalheader_bg.jpg"); background-position: center top; position: relative; width: 940px; height: 104px; margin: 0px auto; z-index: 402; }
 
 div#global_actions { position: absolute; right: 0px; top: 6px; height: 21px; line-height: 21px; color: rgb(184, 182, 180); font-size: 11px; z-index: 401; }
 
@@ -616,7 +614,7 @@ div#global_header .menuitem { display: block; position: relative; padding: 40px 
 
 div#global_header .menuitem.active, div#global_header .menuitem:hover { color: rgb(255, 255, 255); text-decoration: none; }
 
-div#global_header .menuitem.active { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/globalheader_highlight.png"); background-repeat: repeat-x; }
+div#global_header .menuitem.active { background-image: url("./img/globalheader_highlight.png"); background-repeat: repeat-x; }
 
 div#global_header .activebg { display: none; }
 
@@ -630,9 +628,9 @@ div#global_header .activebg { display: none; }
 
 .header_installsteam_btn { float: left; position: relative; height: 21px; margin-right: 3px; }
 
-.header_installsteam_btn_green .header_installsteam_btn_leftcap, .header_installsteam_btn_green .header_installsteam_btn_rightcap, .header_installsteam_btn_green .header_installsteam_btn_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_header_installsteam_green.png"); }
+.header_installsteam_btn_green .header_installsteam_btn_leftcap, .header_installsteam_btn_green .header_installsteam_btn_rightcap, .header_installsteam_btn_green .header_installsteam_btn_content { background-image: url("./img/btn_header_installsteam_green.png"); }
 
-.header_installsteam_btn_gray .header_installsteam_btn_leftcap, .header_installsteam_btn_gray .header_installsteam_btn_rightcap, .header_installsteam_btn_gray .header_installsteam_btn_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_header_installsteam_gray.png"); }
+.header_installsteam_btn_gray .header_installsteam_btn_leftcap, .header_installsteam_btn_gray .header_installsteam_btn_rightcap, .header_installsteam_btn_gray .header_installsteam_btn_content { background-image: url("./img/btn_header_installsteam_gray.png"); }
 
 .header_installsteam_btn_leftcap { position: absolute; left: 0px; top: 0px; width: 24px; height: 21px; background-position: 0px 0px; }
 
@@ -668,7 +666,7 @@ a.store_header_btn_content { display: inline-block; padding: 0px 25px; margin: 0
 
 .store_header_btn a.store_header_btn_content { text-decoration: none; }
 
-.store_header_btn .store_header_btn_content, .store_header_btn .store_header_btn_caps { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_gradients.png"); background-repeat: repeat-x; }
+.store_header_btn .store_header_btn_content, .store_header_btn .store_header_btn_caps { background-image: url("./img/store_header_gradients.png"); background-repeat: repeat-x; }
 
 .store_header_btn.store_header_btn_gray .store_header_btn_content { background-position: 0px -35px; }
 
@@ -684,7 +682,7 @@ a#store_search_link { position: absolute; right: 2px; }
 
 a#store_search_link img { width: 24px; height: 27px; }
 
-.searchbox { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_search.png?v=2"); color: rgb(166, 165, 162); width: 253px; height: 27px; position: relative; z-index: 250; }
+.searchbox { background-image: url("./img/store_header_search.png?v=2"); color: rgb(166, 165, 162); width: 253px; height: 27px; position: relative; z-index: 250; }
 
 .searchbox input { border: none; background-color: rgb(130, 128, 124); color: rgb(205, 202, 193); margin-top: 5px; margin-left: 8px; width: 206px; outline: none; }
 
@@ -692,13 +690,13 @@ a#store_search_link img { width: 24px; height: 27px; }
 
 #store_nav_area { position: absolute; left: 0px; right: 0px; top: 24px; height: 49px; }
 
-.store_nav_leftcap, .store_nav_rightcap { position: absolute; height: 49px; width: 6px; top: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_shadow_caps.png"); background-repeat: no-repeat; }
+.store_nav_leftcap, .store_nav_rightcap { position: absolute; height: 49px; width: 6px; top: 0px; background-image: url("./img/store_header_shadow_caps.png"); background-repeat: no-repeat; }
 
 .store_nav_leftcap { left: -6px; background-position: left center; }
 
 .store_nav_rightcap { right: -6px; background-position: right center; }
 
-#store_nav_area .store_nav_bg { height: 35px; padding: 7px 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_header_gradients.png"); background-repeat: repeat-x; background-position: 0px -115px; }
+#store_nav_area .store_nav_bg { height: 35px; padding: 7px 0px; background-image: url("./img/store_header_gradients.png"); background-repeat: repeat-x; background-position: 0px -115px; }
 
 .store_nav { height: 35px; }
 
@@ -730,7 +728,7 @@ a#store_search_link img { width: 24px; height: 27px; }
 
 .search_suggest .match .match_price { position: absolute; left: 146px; top: 30px; }
 
-div#main { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/content_bg.png"); background-repeat: repeat-x; background-color: rgb(0, 0, 0); }
+div#main { background-image: url("./img/content_bg.png"); background-repeat: repeat-x; background-color: rgb(0, 0, 0); }
 
 div#main_content { margin: 0px auto; min-height: 100%; height: 100%; padding-top: 16px; width: 940px; }
 
@@ -762,11 +760,11 @@ div.rightcol { width: 308px; margin-left: 14px; float: left; overflow: hidden; }
 
 .underlined_links a:hover { color: rgb(255, 255, 255); }
 
-.rightcol .block_flipped_gradient { border: none; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block_flipped.png"); background-position: left top; background-repeat: no-repeat; height: 1px; }
+.rightcol .block_flipped_gradient { border: none; background-image: url("./img/rightcol_bg_block_flipped.png"); background-position: left top; background-repeat: no-repeat; height: 1px; }
 
-.rightcol .block_content { border-top: none; border-right: none; border-bottom: none; border-image: initial; border-left: 1px solid rgb(38, 38, 38); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block.png"); background-position: right bottom; background-repeat: no-repeat; }
+.rightcol .block_content { border-top: none; border-right: none; border-bottom: none; border-image: initial; border-left: 1px solid rgb(38, 38, 38); background-image: url("./img/rightcol_bg_block.png"); background-position: right bottom; background-repeat: no-repeat; }
 
-.rightcol #col_right_review_payment_tips .block_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_block_green.png"); }
+.rightcol #col_right_review_payment_tips .block_content { background-image: url("./img/rightcol_bg_block_green.png"); }
 
 .block_content.nopad { padding: 0px; }
 
@@ -792,13 +790,13 @@ div.rightcol { width: 308px; margin-left: 14px; float: left; overflow: hidden; }
 
 .block_footer img { vertical-align: middle; }
 
-.block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/full_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+.block .block_header { background-image: url("./img/full_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
 
-.leftcol .block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+.leftcol .block .block_header { background-image: url("./img/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
 
-.rightcol .block .block_header { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_blue.png"); background-repeat: no-repeat; background-color: rgb(41, 47, 53); }
+.rightcol .block .block_header { background-image: url("./img/rightcol_bg_blue.png"); background-repeat: no-repeat; background-color: rgb(41, 47, 53); }
 
-.rightcol .block .block_header_green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/rightcol_bg_green.png"); }
+.rightcol .block .block_header_green { background-image: url("./img/rightcol_bg_green.png"); }
 
 .block_content h4 { color: rgb(255, 255, 255); }
 
@@ -824,7 +822,7 @@ div.footer_content { width: 940px; margin: 0px auto; padding-top: 12px; font-siz
 
 .valve_links a { color: rgb(139, 185, 224); }
 
-#footer_nav .pulldown { display: block; float: left; margin-right: 16px; background-color: rgb(38, 38, 38); color: rgb(184, 182, 180); padding: 5px 35px 5px 6px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/ico_search_dropdown.gif"); position: relative; cursor: default; }
+#footer_nav .pulldown { display: block; float: left; margin-right: 16px; background-color: rgb(38, 38, 38); color: rgb(184, 182, 180); padding: 5px 35px 5px 6px; background-image: url("./img/ico_search_dropdown.gif"); position: relative; cursor: default; }
 
 #footer_nav .pulldown.focus { background-color: rgb(77, 75, 73); }
 
@@ -956,7 +954,7 @@ div#main_cluster_control_ctn a { float: left; color: rgb(255, 255, 255); backgro
 
 div#main_cluster_control_ctn a:hover { text-decoration: none; }
 
-div#main_cluster_control_ctn a > span > span { width: 4px; height: 5px; display: block; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFBAMAAACKv7BmAAAAJFBMVEX////////////////////////////////////////////////Vd7HLAAAAC3RSTlMA/tScEUBBnRLNyydRu+0AAAAfSURBVAjXY2AIUmVgcJbeaMIwe/fuXQztIBZDkioDAFBWBpQWwSH5AAAAAElFTkSuQmCC"); }
+div#main_cluster_control_ctn a > span > span { width: 4px; height: 5px; display: block; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAFBAMAAACKv7BmAAAAJFBMVEX////////////////////////////////////////////////Vd7HLMAAAAC3RSTlMA/tScEUBBnRLNyydRu+0AAAAfSURBVAjXY2AIUmVgcJbeaMIwe/fuXQztIBZDkioDAFBWBpQWwSH5AAAAAElFTkSuQmCC"); }
 
 div#main_cluster_control_ctn a > span > span.arrow_prev { float: left; margin: 8px -12px -13px 8px; }
 
@@ -968,9 +966,9 @@ div#main_cluster_control_ctn a.active > span, div#main_cluster_control_ctn a:hov
 
 div.slider_next { float: left; }
 
-div.slider div.handle { position: absolute; top: 0px; width: 60px; height: 13px; cursor: pointer; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/control_slider.png"); background-repeat: no-repeat; background-position: left center; }
+div.slider div.handle { position: absolute; top: 0px; width: 60px; height: 13px; cursor: pointer; background-image: url("./img/control_slider.png"); background-repeat: no-repeat; background-position: left center; }
 
-div#main_cluster_control.slider div.handle { position: static; width: 56px; height: 22px; cursor: pointer; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/slider_button.png"); background-repeat: no-repeat; background-position: left center; }
+div#main_cluster_control.slider div.handle { position: static; width: 56px; height: 22px; cursor: pointer; background-image: url("./img/slider_button.png"); background-repeat: no-repeat; background-position: left center; }
 
 div.slider div.handle:hover { background-position: right center; }
 
@@ -1002,7 +1000,7 @@ img.large_cap { width: 467px; height: 181px; position: relative; }
 
 .large_cap_price { position: absolute; right: 16px; line-height: 14px; }
 
-a.btn_browse { display: block; width: 150px; height: 49px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_browse.png"); background-repeat: no-repeat; margin-bottom: 12px; position: relative; float: left; margin-right: 4px; }
+a.btn_browse { display: block; width: 150px; height: 49px; background-image: url("./img/btn_browse.png"); background-repeat: no-repeat; margin-bottom: 12px; position: relative; float: left; margin-right: 4px; }
 
 a.btn_browse:hover { text-decoration: none; }
 
@@ -1012,7 +1010,7 @@ a.btn_browse:hover { text-decoration: none; }
 
 .btn_browse h5 { color: rgb(40, 45, 51); font-size: 10px; text-transform: uppercase; font-weight: bold; width: 80px; padding-top: 12px; padding-left: 7px; float: left; }
 
-#home_install_steam { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/about/btn_download_nobg.png"); width: 277px; height: 42px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
+#home_install_steam { background-image: url("./img/about/btn_download_nobg.png"); width: 277px; height: 42px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
 
 #home_install_steam a#home_install_steam_link { display: block; line-height: 42px; margin: 2px auto; padding-left: 42px; font-size: 16px; font-weight: bold; color: rgb(255, 255, 255); text-shadow: rgb(84, 119, 38) -1px -1px 0px; }
 
@@ -1020,7 +1018,7 @@ a#home_install_steam_link:hover { text-decoration: none; }
 
 #home_install_steam_desc p { margin: 8px 0px; color: rgb(98, 100, 102); }
 
-.btn_white { display: block; width: 219px; height: 48px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_white.png"); background-repeat: no-repeat; }
+.btn_white { display: block; width: 219px; height: 48px; background-image: url("./img/btn_white.png"); background-repeat: no-repeat; }
 
 .btn_white h3 { font-weight: bold; font-size: 16px; color: rgb(255, 255, 255); margin-top: 6px; text-shadow: rgb(129, 129, 129) -1px -1px 0px; margin-left: 13px; }
 
@@ -1030,13 +1028,13 @@ a#home_install_steam_link:hover { text-decoration: none; }
 
 a.btn_white, a.btn_white h3, a.btn_white h5, a.btn_white:hover, a.btn_white:hover h3, a.btn_white:hover h5 { text-decoration: none !important; }
 
-.btn_gray { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_gray.png"); width: 276px; height: 41px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
+.btn_gray { background-image: url("./img/btn_gray.png"); width: 276px; height: 41px; margin-bottom: 9px; margin-left: auto; margin-right: auto; }
 
 .btn_gray a { display: block; line-height: 42px; padding-left: 17px; font-size: 16px; font-weight: normal; color: rgb(255, 255, 255); text-shadow: rgb(84, 82, 80) -1px -1px 0px; text-decoration: none !important; }
 
 .btn_gray a:hover { text-decoration: none !important; }
 
-.btn_green { display: block; width: 219px; height: 48px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_green.png"); background-repeat: no-repeat; }
+.btn_green { display: block; width: 219px; height: 48px; background-image: url("./img/btn_green.png"); background-repeat: no-repeat; }
 
 .btn_green h3 { font-weight: bold; font-size: 16px; color: rgb(255, 255, 255); margin-top: 6px; text-shadow: rgb(129, 129, 129) -1px -1px 0px; margin-left: 13px; }
 
@@ -1044,7 +1042,7 @@ a.btn_white, a.btn_white h3, a.btn_white h5, a.btn_white:hover, a.btn_white:hove
 
 .btn_green h3.one_line { line-height: 48px; text-align: center; margin: 0px; }
 
-a.btn_green, a.btn_green h3, a.btn_green h5, a.btn_green:hover, a.btn_green:hover h3, a.btn_green:hover h5 { text-decoration: none !important; }
+a.btn_green, a.btn_green:hover, a.btn_green h3, a.btn_green h5, a.btn_green:hover h3, a.btn_green:hover h5 { text-decoration: none !important; }
 
 div.hover { position: absolute; z-index: 400; top: 40px; left: 400px; }
 
@@ -1060,9 +1058,9 @@ div.hover { position: absolute; z-index: 400; top: 40px; left: 400px; }
 
 .hover_box .rule { border-bottom: 1px solid rgb(130, 128, 124); }
 
-.hover_arrow_left { width: 13px; height: 26px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: left top; position: absolute; top: 48px; left: 0px; }
+.hover_arrow_left { width: 13px; height: 26px; background-image: url("./img/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: left top; position: absolute; top: 48px; left: 0px; }
 
-.hover_arrow_right { width: 13px; height: 26px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: right top; position: absolute; top: 48px; right: 0px; }
+.hover_arrow_right { width: 13px; height: 26px; background-image: url("./img/hover_arrow_both.gif"); background-repeat: no-repeat; background-position: right top; position: absolute; top: 48px; right: 0px; }
 
 .hover_details_block { background-color: rgb(26, 26, 26); padding: 5px; }
 
@@ -1074,7 +1072,7 @@ div.hover { position: absolute; z-index: 400; top: 40px; left: 400px; }
 
 .tabarea { margin-bottom: 28px; }
 
-.tabbar { border-bottom: 1px solid rgb(0, 0, 0); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-position: center bottom; position: relative; }
+.tabbar { border-bottom: 1px solid rgb(0, 0, 0); background-image: url("./img/maincol_bg_gray.png"); background-repeat: no-repeat; background-position: center bottom; position: relative; }
 
 .tab_content_ctn { }
 
@@ -1190,7 +1188,7 @@ img.platform_small, img.platform_img { vertical-align: middle; margin-right: 1px
 
 .discount_block_spotlight .discount_final_price { font-size: 13px; }
 
-.dailydeal { position: relative; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/dailydeal.png"); background-repeat: no-repeat; width: 308px; height: 175px; font-size: 10px; }
+.dailydeal { position: relative; background-image: url("./img/dailydeal.png"); background-repeat: no-repeat; width: 308px; height: 175px; font-size: 10px; }
 
 .dailydeal .title { position: absolute; top: 5px; left: 14px; color: rgb(255, 255, 255); font-weight: bold; line-height: 13px; }
 
@@ -1212,11 +1210,11 @@ img.platform_small, img.platform_img { vertical-align: middle; margin-right: 1px
 
 .friend_block_avatar { width: 32px; height: 32px; background-repeat: no-repeat; padding: 4px; margin-right: 2px; }
 
-.friend_status_offline .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_offline.jpg"); }
+.friend_status_offline .friend_block_avatar { background-image: url("./img/iconholder_offline.jpg"); }
 
-.friend_status_online .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_online.jpg"); }
+.friend_status_online .friend_block_avatar { background-image: url("./img/iconholder_online.jpg"); }
 
-.friend_status_in-game .friend_block_avatar { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/communitylink/iconholder_ingame.jpg"); }
+.friend_status_in-game .friend_block_avatar { background-image: url("./img/iconholder_ingame.jpg"); }
 
 .friend_block_text { }
 
@@ -1254,7 +1252,7 @@ img.platform_small, img.platform_img { vertical-align: middle; margin-right: 1px
 
 .friend_activity_label { margin-bottom: 11px; }
 
-a.linkbar { display: block; position: relative; height: 22px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/bg_link_bar.png"); background-repeat: no-repeat; background-position: right center; padding-top: 8px; color: rgb(176, 174, 172); margin-bottom: 2px; text-decoration: none; }
+a.linkbar { display: block; position: relative; height: 22px; background-image: url("./img/bg_link_bar.png"); background-repeat: no-repeat; background-position: right center; padding-top: 8px; color: rgb(176, 174, 172); margin-bottom: 2px; text-decoration: none; }
 
 a.linkbar:hover { text-decoration: none; color: rgb(255, 255, 255); }
 
@@ -1276,13 +1274,13 @@ h1.blue, h2.blue { color: rgb(139, 185, 224); }
 
 .community_activity_signin_buttons .btn_checkout_green, .community_activity_signin_buttons .community_activity_or { float: left; line-height: 24px; margin-right: 8px; }
 
-.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
+.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("./img/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
 
 .popup_block { z-index: 200; position: absolute; }
 
-.popup_block .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
+.popup_block .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("./img/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
 
-.popup_block .header { padding: 4px 16px; height: 18px; font-size: 12px; font-weight: bold; color: rgb(214, 215, 216); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
+.popup_block .header { padding: 4px 16px; height: 18px; font-size: 12px; font-weight: bold; color: rgb(214, 215, 216); background-image: url("./img/maincol_bg_gray.png"); background-repeat: no-repeat; background-color: rgb(48, 48, 48); }
 
 .popup_block .popup_body.popup_menu { }
 
@@ -1298,7 +1296,7 @@ h1.blue, h2.blue { color: rgb(139, 185, 224); }
 
 .shadow_content { margin: 12px; }
 
-.shadow_ul, .shadow_ur, .shadow_bl, .shadow_br { position: absolute; height: 12px; width: 12px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_corners.png"); }
+.shadow_ul, .shadow_ur, .shadow_bl, .shadow_br { position: absolute; height: 12px; width: 12px; background-image: url("./img/shadow_corners.png"); }
 
 .shadow_ul { top: 0px; left: 0px; background-position: left top; }
 
@@ -1308,13 +1306,13 @@ h1.blue, h2.blue { color: rgb(139, 185, 224); }
 
 .shadow_br { bottom: 0px; right: 0px; background-position: right bottom; }
 
-.shadow_top, .shadow_bottom { position: absolute; margin: 0px 12px; height: 12px; left: 0px; right: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_topbottom.png"); background-repeat: repeat-x; }
+.shadow_top, .shadow_bottom { position: absolute; margin: 0px 12px; height: 12px; left: 0px; right: 0px; background-image: url("./img/shadow_topbottom.png"); background-repeat: repeat-x; }
 
 .shadow_top { background-position: center top; top: 0px; }
 
 .shadow_bottom { background-position: center bottom; bottom: 0px; }
 
-.shadow_left, .shadow_right { position: absolute; top: 0px; bottom: 0px; margin: 12px 0px; width: 12px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/shadow_leftright.png"); background-repeat: repeat-y; }
+.shadow_left, .shadow_right { position: absolute; top: 0px; bottom: 0px; margin: 12px 0px; width: 12px; background-image: url("./img/shadow_leftright.png"); background-repeat: repeat-y; }
 
 .shadow_left { background-position: left center; left: 0px; }
 
@@ -1356,15 +1354,15 @@ div.autocomplete ul li { margin: 0px; padding: 3px 2px; display: block; list-sty
 
 .btn_checkout_green, .btn_checkout_blue, .btn_checkout_gray { display: block; position: relative; height: 28px; background-repeat: repeat-x; padding: 0px 17px; text-transform: uppercase; font-size: 11px; color: rgb(255, 255, 255); line-height: 24px; text-align: center; cursor: pointer; }
 
-.btn_checkout_green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_active_bg.png"); }
+.btn_checkout_green { background-image: url("./img/btn_checkout_active_bg.png"); }
 
-.btn_checkout_green .leftcap, .btn_checkout_green .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_active_corners.png"); }
+.btn_checkout_green .leftcap, .btn_checkout_green .rightcap { background-image: url("./img/btn_checkout_active_corners.png"); }
 
-.btn_checkout_blue { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_blue_bg.png"); }
+.btn_checkout_blue { background-image: url("./img/btn_checkout_blue_bg.png"); }
 
-.btn_checkout_blue .leftcap, .btn_checkout_blue .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_blue_corners.png"); }
+.btn_checkout_blue .leftcap, .btn_checkout_blue .rightcap { background-image: url("./img/btn_checkout_blue_corners.png"); }
 
-.btn_checkout_gray, .btn_checkout_gray .leftcap, .btn_checkout_gray .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_gray_comp.png"); }
+.btn_checkout_gray, .btn_checkout_gray .leftcap, .btn_checkout_gray .rightcap { background-image: url("./img/btn_checkout_gray_comp.png"); }
 
 a.btn_checkout_green, a.btn_checkout_green:hover, a.btn_checkout_blue, a.btn_checkout_blue:hover, a.btn_checkout_gray, a.btn_checkout_gray:hover { text-decoration: none; color: rgb(255, 255, 255) !important; }
 
@@ -1374,9 +1372,9 @@ a.btn_checkout_green, a.btn_checkout_green:hover, a.btn_checkout_blue, a.btn_che
 
 .btn_checkout_green .rightcap, .btn_checkout_blue .rightcap, .btn_checkout_gray .rightcap { right: 0px; background-position: right bottom; }
 
-.btn_checkout_green.disabled, .btn_checkout_gray.disabled { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_inactive_bg.png"); color: rgb(98, 100, 103); cursor: default; }
+.btn_checkout_green.disabled, .btn_checkout_gray.disabled { background-image: url("./img/btn_checkout_inactive_bg.png"); color: rgb(98, 100, 103); cursor: default; }
 
-.btn_checkout_green.disabled .leftcap, .btn_checkout_green.disabled .rightcap, .btn_checkout_gray.disabled .leftcap, .btn_checkout_gray.disabled .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_checkout_inactive_corners.png"); }
+.btn_checkout_green.disabled .leftcap, .btn_checkout_green.disabled .rightcap, .btn_checkout_gray.disabled .leftcap, .btn_checkout_gray.disabled .rightcap { background-image: url("./img/btn_checkout_inactive_corners.png"); }
 
 .iepopupfix { display: none; position: absolute; inset: 0px; overflow: hidden; }
 
@@ -1386,7 +1384,7 @@ img.iepopupfix_img { width: 200px; height: 500px; }
 
 .recommendation_btn.lighter { background-color: rgb(38, 38, 38); color: rgb(176, 174, 172); }
 
-.recommendation_imgbtn { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/recommended/recommended_buttons.png"); background-repeat: no-repeat; width: 22px; height: 22px; }
+.recommendation_imgbtn { background-image: url("./img/recommended/recommended_buttons.png"); background-repeat: no-repeat; width: 22px; height: 22px; }
 
 .recommendation_imgbtn.wishlist { background-position: center 0px; }
 
@@ -1432,25 +1430,25 @@ ul.squares li { }
 
 .btn_addtocart { position: relative; height: 34px; }
 
-.btn_addtocart .btn_addtocart_left, .btn_addtocart .btn_addtocart_right { position: absolute; width: 2px; height: 34px; top: 0px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_corners.gif"); }
+.btn_addtocart .btn_addtocart_left, .btn_addtocart .btn_addtocart_right { position: absolute; width: 2px; height: 34px; top: 0px; background-image: url("./img/btn_addtocart_corners.gif"); }
 
-.btn_addtocart.btn_packageinfo .btn_addtocart_left, .btn_addtocart.btn_packageinfo .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_packageinfo_corners.gif"); }
+.btn_addtocart.btn_packageinfo .btn_addtocart_left, .btn_addtocart.btn_packageinfo .btn_addtocart_right { background-image: url("./img/btn_packageinfo_corners.gif"); }
 
-.btn_addtocart.btn_addtocart_blue .btn_addtocart_left, .btn_addtocart.btn_addtocart_blue .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_blue_corners.jpg"); }
+.btn_addtocart.btn_addtocart_blue .btn_addtocart_left, .btn_addtocart.btn_addtocart_blue .btn_addtocart_right { background-image: url("./img/btn_addtocart_blue_corners.jpg"); }
 
-.btn_addtocart.btn_clickfordetails .btn_addtocart_left, .btn_addtocart.btn_clickfordetails .btn_addtocart_right { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_clickfordetails_corners.gif"); }
+.btn_addtocart.btn_clickfordetails .btn_addtocart_left, .btn_addtocart.btn_clickfordetails .btn_addtocart_right { background-image: url("./img/btn_clickfordetails_corners.gif"); }
 
 .btn_addtocart .btn_addtocart_left { background-position: left center; left: 0px; }
 
 .btn_addtocart .btn_addtocart_right { background-position: right center; right: 0px; }
 
-.btn_addtocart a.btn_addtocart_content { display: inline-block; height: 34px; font-size: 11px; color: rgb(255, 255, 255); text-align: center; padding: 0px 11px; line-height: 34px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_repeat.gif"); background-repeat: repeat-x; text-transform: uppercase; }
+.btn_addtocart a.btn_addtocart_content { display: inline-block; height: 34px; font-size: 11px; color: rgb(255, 255, 255); text-align: center; padding: 0px 11px; line-height: 34px; background-image: url("./img/btn_addtocart_repeat.gif"); background-repeat: repeat-x; text-transform: uppercase; }
 
-.btn_addtocart.btn_packageinfo a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_packageinfo_repeat.gif"); }
+.btn_addtocart.btn_packageinfo a.btn_addtocart_content { background-image: url("./img/btn_packageinfo_repeat.gif"); }
 
-.btn_addtocart.btn_addtocart_blue a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_addtocart_blue_repeat.jpg"); }
+.btn_addtocart.btn_addtocart_blue a.btn_addtocart_content { background-image: url("./img/btn_addtocart_blue_repeat.jpg"); }
 
-.btn_addtocart.btn_clickfordetails a.btn_addtocart_content { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_clickfordetails_repeat.gif"); }
+.btn_addtocart.btn_clickfordetails a.btn_addtocart_content { background-image: url("./img/btn_clickfordetails_repeat.gif"); }
 
 .btn_addtocart a.btn_addtocart_content:hover { text-decoration: none; }
 
@@ -1464,7 +1462,7 @@ ul.squares li { }
 
 .game_purchase_discount.suppress_discount_pct .discount_original_price, .game_purchase_discount.suppress_discount_pct .discount_final_price { margin-left: 4px; left: 4px; }
 
-.btn_client, body a.btn_client { display: inline-block; border: 1px solid rgb(111, 110, 108); border-radius: 3px; color: rgb(229, 226, 223); text-transform: uppercase; text-decoration: none; height: 22px; line-height: 22px; padding-left: 5px; min-width: 85px; text-align: left; font-size: 11px; margin-left: 15px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/client_btn.png"); background-position: center top; }
+.btn_client, body a.btn_client { display: inline-block; border: 1px solid rgb(111, 110, 108); border-radius: 3px; color: rgb(229, 226, 223); text-transform: uppercase; text-decoration: none; height: 22px; line-height: 22px; padding-left: 5px; min-width: 85px; text-align: left; font-size: 11px; margin-left: 15px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("./img/client_btn.png"); background-position: center top; }
 
 .btn_client.primary { border-color: rgb(153, 147, 141); }
 
@@ -1474,7 +1472,7 @@ ul.squares li { }
 
 .btn_checkout_green.btn_checkout_green_client_style { display: inline-block; padding-left: 8px; padding-right: 0px; font-size: 11px; min-width: 85px; margin-left: 12px; margin-right: 0px; text-align: left; }
 
-.btn_client_small { display: inline-block; border: none; border-radius: 3px; color: rgb(255, 255, 255); text-decoration: none; padding: 3px 5px; font-size: 11px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/client_btn.png"); background-position: center top; }
+.btn_client_small { display: inline-block; border: none; border-radius: 3px; color: rgb(255, 255, 255); text-decoration: none; padding: 3px 5px; font-size: 11px; background-repeat: repeat-x; background-color: rgb(229, 226, 223); background-image: url("./img/client_btn.png"); background-position: center top; }
 
 .btn_client_small a { color: rgb(225, 225, 225); }
 
@@ -1482,7 +1480,7 @@ ul.squares li { }
 
 .new_releases_filter_block { background-color: rgb(77, 75, 73); padding: 6px 0px 6px 11px; }
 
-.store_checkbox_button { display: inline-block; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/store_checkbox.png") left top no-repeat; cursor: pointer; height: 12px; font-size: 10px; text-transform: uppercase; color: rgb(146, 142, 138); padding: 2px 0px 2px 23px; }
+.store_checkbox_button { display: inline-block; background: url("./img/store_checkbox.png") left top no-repeat; cursor: pointer; height: 12px; font-size: 10px; text-transform: uppercase; color: rgb(146, 142, 138); padding: 2px 0px 2px 23px; }
 
 .store_checkbox_button.checked { background-position: left bottom; color: rgb(193, 188, 183); }
 
@@ -1490,13 +1488,13 @@ ul.squares li { }
 
 .header_notification_btn { position: relative; height: 29px; cursor: pointer; }
 
-.header_notification_empty { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_notification_grey.png"); background-repeat: no-repeat; background-position: center top; width: 29px; }
+.header_notification_empty { background-image: url("./img/btn_notification_grey.png"); background-repeat: no-repeat; background-position: center top; width: 29px; }
 
 .header_notification_empty:hover, .header_notification_empty.focus { background-position: center bottom; }
 
 .header_notification_green { padding: 0px 28px 0px 10px; background-repeat: repeat-x; background-position: 0px -29px; line-height: 29px; font-weight: bold; color: rgb(255, 255, 255); }
 
-.header_notification_green, .header_notification_green .leftcap, .header_notification_green .rightcap { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_notification_green.png"); }
+.header_notification_green, .header_notification_green .leftcap, .header_notification_green .rightcap { background-image: url("./img/btn_notification_green.png"); }
 
 .header_notification_green:hover, .header_notification_green.focus { background-position: 0px -87px; }
 
@@ -1516,15 +1514,15 @@ ul.squares li { }
 
 .notification_icon { display: block; float: left; width: 16px; height: 30px; background-repeat: no-repeat; background-position: center center; margin-right: 16px; }
 
-.header_notification_comments .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_comment.png"); }
+.header_notification_comments .notification_icon { background-image: url("./img/inbox_comment.png"); }
 
-.header_notification_items .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_item.png"); }
+.header_notification_items .notification_icon { background-image: url("./img/inbox_item.png"); }
 
-.header_notification_invites .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_invite.png"); }
+.header_notification_invites .notification_icon { background-image: url("./img/inbox_invite.png"); }
 
-.header_notification_gifts .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_gift.png"); }
+.header_notification_gifts .notification_icon { background-image: url("./img/inbox_gift.png"); }
 
-.header_notification_offlinemessages .notification_icon { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/inbox_offlinemessages.png"); }
+.header_notification_offlinemessages .notification_icon { background-image: url("./img/inbox_offlinemessages.png"); }
 
 #package_header_container { background-color: rgb(0, 0, 0); padding: 15px; }
 
@@ -1532,7 +1530,7 @@ ul.squares li { }
 
 #package_savings_bar > .message { padding: 8px; font-size: 12px; }
 
-#package_savings_bar > .savings { text-align: right; width: 140px; position: relative; float: right; font-size: 14px; padding: 8px; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/package_arrow.png") left top no-repeat; }
+#package_savings_bar > .savings { text-align: right; width: 140px; position: relative; float: right; font-size: 14px; padding: 8px; background: url("./img/package_arrow.png") left top no-repeat; }
 
 .perf_timing_area { width: 936px; margin: 0px auto 48px; text-align: center; color: rgb(176, 174, 172); }
 
@@ -1556,7 +1554,7 @@ a.item_action { display: inline-block; border: 1px solid rgb(153, 147, 141); bor
 
 .store_nav .tab > span.pulldown { padding-right: 7px; }
 
-.store_nav .tab > span.pulldown > span { width: 19px; height: 12px; padding: 0px; display: inline-block; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/btn_arrow_down_padded.png"); background-position: center center; background-repeat: no-repeat; cursor: pointer; vertical-align: text-bottom; }
+.store_nav .tab > span.pulldown > span { width: 19px; height: 12px; padding: 0px; display: inline-block; background-image: url("./img/btn_arrow_down_padded.png"); background-position: center center; background-repeat: no-repeat; cursor: pointer; vertical-align: text-bottom; }
 
 .block_greenlight { position: relative; }
 
@@ -1566,11 +1564,11 @@ a.item_action { display: inline-block; border: 1px solid rgb(153, 147, 141); bor
 
 .block_greenlight .bgblock > img { width: 97px; height: 97px; }
 
-.block_greenlight .container { position: absolute; left: 16px; top: 74px; width: 582px; height: 148px; background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/StoreHomeBanner_slice.png"); }
+.block_greenlight .container { position: absolute; left: 16px; top: 74px; width: 582px; height: 148px; background-image: url("./img/StoreHomeBanner_slice.png"); }
 
 .block_greenlight .container > a { position: absolute; top: 55px; left: 50px; }
 
-.leftcol .block .block_header.green { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/green_header.png"); }
+.leftcol .block .block_header.green { background-image: url("./img/green_header.png"); }
 
 .block_header.green .right a { color: rgb(214, 215, 215); }
 
@@ -1580,9 +1578,9 @@ a.item_action { display: inline-block; border: 1px solid rgb(153, 147, 141); bor
 
 .osrestricted_alternate_mac > a, .osrestricted_alternate_windows > a { color: rgb(66, 66, 66); text-decoration: underline; }
 
-.osrestricted_alternate_mac { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/platforms/platform_mac_large.png"); }
+.osrestricted_alternate_mac { background-image: url("./img/platforms/platform_mac_large.png"); }
 
-.osrestricted_alternate_windows { background-image: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/images/v5/platforms/platform_pc_large.png"); }
+.osrestricted_alternate_windows { background-image: url("./img/platforms/platform_pc_large.png"); }
 
 div#global_header .menuitem_new { position: absolute; top: 27px; font-size: 11px; color: rgb(133, 176, 223); }
 
@@ -1598,7 +1596,7 @@ div#global_header .submenuitem.active.moderator, div#global_header .submenuitem.
 
 .menuitem.username { max-width: 250px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
 
-.supernav_content { max-width: 132px; background: url("https://web.archive.org/web/20130601173640im_/http://cdn2.store.steampowered.com/public/shared/images/dd_web.jpg") left top no-repeat rgb(0, 0, 0); padding: 5px 15px 10px; box-shadow: rgb(0, 0, 0) 3px 3px 5px -3px; text-align: left; z-index: 500; }
+.supernav_content { max-width: 132px; background: url("./img/dd_web.jpg") left top no-repeat rgb(0, 0, 0); padding: 5px 15px 10px; box-shadow: rgb(0, 0, 0) 3px 3px 5px -3px; text-align: left; z-index: 500; }
 
 .supernav_content > a { display: block; padding: 6px 0px; text-transform: uppercase; font-size: 12px; }
 
@@ -1683,27 +1681,27 @@ btn_border_2px > span { border-radius: 3px; }
 
 .btn_uppercase > span { text-transform: uppercase; }
 
-.btn_grey_grey.btn_ico_thumbs_up, .btn_grey_black.btn_ico_thumbs_up { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
+.btn_grey_grey.btn_ico_thumbs_up, .btn_grey_black.btn_ico_thumbs_up { background-image: url("./img/icon_btn_rateup.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
 
-.btn_grey_grey.btn_ico_thumbs_up:hover, .btn_grey_black.btn_ico_thumbs_up:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup_hover.png"); }
+.btn_grey_grey.btn_ico_thumbs_up:hover, .btn_grey_black.btn_ico_thumbs_up:hover { background-image: url("./img/icon_btn_rateup_hover.png"); }
 
-.btn_grey_grey.btn_ico_thumbs_up.active, .btn_grey_black.btn_ico_thumbs_up.active { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_rateup_green.png"); }
+.btn_grey_grey.btn_ico_thumbs_up.active, .btn_grey_black.btn_ico_thumbs_up.active { background-image: url("./img/icon_btn_rateup_green.png"); }
 
 .btn_grey_grey.btn_ico_thumbs_up.active:hover { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
 
-.btn_grey_grey.btn_ico_thumbs_down, .btn_grey_black.btn_ico_thumbs_down { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 15px; }
+.btn_grey_grey.btn_ico_thumbs_down, .btn_grey_black.btn_ico_thumbs_down { background-image: url("./img/icon_btn_ratedown.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 15px; }
 
-.btn_grey_grey.btn_ico_thumbs_down:hover, .btn_grey_black.btn_ico_thumbs_down:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown_hover.png"); }
+.btn_grey_grey.btn_ico_thumbs_down:hover, .btn_grey_black.btn_ico_thumbs_down:hover { background-image: url("./img/icon_btn_ratedown_hover.png"); }
 
-.btn_grey_grey.btn_ico_thumbs_down.active, .btn_grey_black.btn_ico_thumbs_down.active { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_ratedown_red.png"); }
+.btn_grey_grey.btn_ico_thumbs_down.active, .btn_grey_black.btn_ico_thumbs_down.active { background-image: url("./img/icon_btn_ratedown_red.png"); }
 
 .btn_grey_grey.btn_ico_thumbs_down.active:hover { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
 
-.btn_grey_grey.btn_ico_comments, .btn_grey_black.btn_ico_comments { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_comment.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
+.btn_grey_grey.btn_ico_comments, .btn_grey_black.btn_ico_comments { background-image: url("./img/icon_btn_comment.png"); background-repeat: no-repeat; background-position: 5px center; padding-left: 20px; }
 
-.btn_grey_grey.btn_ico_comments:hover, .btn_grey_black.btn_ico_comments:hover { background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_btn_comment_hover.png"); }
+.btn_grey_grey.btn_ico_comments:hover, .btn_grey_black.btn_ico_comments:hover { background-image: url("./img/icon_btn_comment_hover.png"); }
 
-.btn_details_arrow { display: inline-block; width: 15px; height: 16px; background-image: url("https://web.archive.org/web/20130601203939im_/http://store.steampowered.com/public/shared/images/buttons/icon_double_arrows.png"); vertical-align: middle; }
+.btn_details_arrow { display: inline-block; width: 15px; height: 16px; background-image: url("./img/icon_double_arrows.png"); vertical-align: middle; }
 
 .btn_details_arrow.up { background-position: 0px 0px; }
 
